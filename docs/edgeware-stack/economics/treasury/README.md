@@ -100,11 +100,11 @@ To propose a treasury spend, **a deposit totaling 5% of the proposed spend amoun
 
 One way to create the proposal is to use the Polkadot JS Apps [website](https://polkadot.js.org/apps). From the website, use either the [extrinsics tab](https://polkadot.js.org/apps/#/extrinsics) and select the Treasury pallet, then `proposeSpend` and enter the desired amount and recipient, **or** use the [Treasury tab](https://polkadot.js.org/apps/#/treasury) and its dedicated Submit Proposal button:
 
-![](<..//img/image (9) (1) (2) (2) (2) (2).png>)
+![](/img/image9.png)
 
 The system will automatically take the required deposit, picking the **higher** of the following two values: 1000 EDG or 5% of the requested amount. If the user cannot pay the deposit, an error will be returned and the proposal creation will fail.
 
-![A proposal ready for the council to consider](<..//img/image (8) (1) (1) (2) (2) (2) (2).png>)
+![A proposal ready for the council to consider](/img/image8.png)
 
 Once created, your proposal will become visible in the Treasury screen and the council can start voting on it.
 

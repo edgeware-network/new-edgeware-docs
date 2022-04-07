@@ -12,7 +12,7 @@ Nominated Proof of Stake is the process of selecting validators to be allowed to
   - Edgeware.
   - Switch (at the top).
 
-![](</img/EDGnetwork (1).png>)
+![](/img/EDGnetwork.png)
 
 ## Stash and Controller accounts
 

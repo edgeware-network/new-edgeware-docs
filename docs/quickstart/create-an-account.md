@@ -40,7 +40,7 @@ If you would like to know more or review the code of the plugin yourself, [you c
 
 After installing the plugin, you should see the orange and white Polkadot{.js} logo in the menu bar of your browser.
 
-![Install Polkadot Chrome Extension](</img/install_polkadot_chrome_extension (1).png>)
+![Install Polkadot Chrome Extension](/img/install_polkadot_chrome_extension.png)
 
 ## Open Accounts<a href="Open-Accounts" id="Open-Accounts"></a>
 
@@ -86,7 +86,7 @@ Subkey is recommended for technically advanced users who are comfortable with th
 
 [You can find detailed build and usage instructions of subkey](https://github.com/paritytech/substrate/tree/master/bin/utils/subkey)
 
-![subkey generate address for edgeware](</img/subkey_generate_address_for_edgeware (1).png>)
+![subkey generate address for edgeware](/img/subkey_generate_address_for_edgeware.png)
 
 ## Edgeui-Flax.Vercel.app<a href="Edgeui-Flax.Vercel.app" id="Edgeui-Flax"></a>
 
