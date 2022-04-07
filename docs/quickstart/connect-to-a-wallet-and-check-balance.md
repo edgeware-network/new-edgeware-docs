@@ -8,7 +8,7 @@ Lockdrop addresses have an outdated format and need to be transformed to find yo
 
 [https://edgeware.subscan.io/tools/ss58_transform](https://edgeware.subscan.io/tools/ss58_transform)
 
-![](</img/screen-shot-2020-07-22-at-5.47.26-pm (2) (1) (1) (1).png>)
+![](/img/screen-shot-2020-07-22-at-5.47.26-pm2.png)
 
 ### Background
 
@@ -28,7 +28,7 @@ The Polkadot.js **Browser Extension** does not display the Edgeware network ID e
 {% tab title="Easy Mode: Subscan Tool" %}
 [Visit this Subscan Tool](https://edgeware.subscan.io/tools/ss58_transform) and enter your address or public key to generate a list of many network-encoded versions of your address. Save the one marked Edgeware.
 
-![](</img/image (14) (4) (4) (4) (4).png>)
+![](/img/image14.png)
 {% endtab %}
 
 {% tab title="Using Polkadot UI" %}
@@ -38,7 +38,7 @@ Enter your old address into the search bar in the Address Book tool, and then cl
 
 Alternatively, you can use the Accounts tab to do the same if you've connected via the Polkadot UI Browser Extension.
 
-![](</img/screen-shot-2020-03-06-at-3.25.07-pm (2) (2) (2) (2).png>)
+![](/img/screen-shot-2020-03-06-at-3.25.07-pm2.png)
 {% endtab %}
 
 {% tab title="Using Subkey CLI" %}
@@ -124,7 +124,7 @@ Once connected, the extension will prompt you to authorize connecting your local
 
 You can now explore the chain and your account on Edgeware.
 
-![](</img/screen-shot-2020-02-10-at-3.03.43-am (2) (2) (2) (2).png>)
+![](/img/screen-shot-2020-02-10-at-3.03.43-am2.png)
 {% endtab %}
 
 {% tab title="Commonwealth.im" %}

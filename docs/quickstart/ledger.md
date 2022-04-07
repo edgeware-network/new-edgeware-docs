@@ -96,7 +96,7 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
    - Make Transfer.
    - On Ledger device use the right button to go through the menus. Verify that it is the correct receiving address and EDG amount on the device. double click on approve or reject accordingly.
 
-![](</img/6 (3).png>)
+![](/img/6.png)
 
 ## View Balance
 

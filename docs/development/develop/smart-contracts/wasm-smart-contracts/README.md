@@ -1,6 +1,6 @@
 # WASM
 
-![](../..//img/substrate-ink.png)
+![](/img/substrate-ink.png)
 
 ## WASM Contract Pallet
 

@@ -1,8 +1,8 @@
 # EVM
 
-![](../..//img/124-1245885_ethereum-logo-eth-coin-logo-png-transparent-png.png)
+![](/img/ethereum-logo.png)
 
-Edgeware has a pallet that allows developers to write EVM smart-contracts. This means that you can use Edgeware as you would with Ethereum. Edgeware is fully compatible with Ethereum's Web3 API and EVM. Here, we'll walk through a few subtle differences between Edgeware and Ethereum. Namely, Edgeware has a Proof of Stake-based consensus mechanism. This shouldn't affect you if you're building a DeFi or NFT based application. See our related documentation on [proof-of-stake](https://docs.edgeware.wiki/edgeware-stack/staking). In the following sections we detail Edgeware<>EVM Compatibility.
+Edgeware has a pallet that allows developers to write EVM smart-contracts. This means that you can use Edgeware as you would with Ethereum. Edgeware is fully compatible with Ethereum's Web3 API and EVM. Here, we'll walk through a few subtle differences between Edgeware and Ethereum. Namely, Edgeware has a Proof of Stake-based consensus mechanism. This shouldn't affect you if you're building a DeFi or NFT based application. See our related documentation on [proof-of-stake](https://docs.edgeware.wiki/edgeware-stack/staking). In the following sections we detail EdgewareEVM Compatibility.
 
 ## Full-Ethereum API and Tooling Compatibility
 

@@ -26,7 +26,7 @@ Find the lock transaction in [a block explorer like Etherscan.io](http://ethersc
 
 In the transaction details, find the Input Data (see screenshot below,) and find the segment that shows `[0]:0000000000 ...` and note the number at the end of the segment.
 
-![](</img/screen-shot-2020-02-13-at-12.02.31-pm (1) (1).png>)
+![](/img/screen-shot-2020-02-13-at-12.02.31-pm.png)
 
 If that number is ..
 
