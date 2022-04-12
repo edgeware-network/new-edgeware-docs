@@ -1,4 +1,4 @@
-# Create an Account <a href="Create-an-account" id="Create-an-account"></a>
+# Create an Account
 
 An address is the public part of an Edgeware account. The private part is the key used to access this address. The public and private part together make up an Edgeware account. To interact with Edgeware chain, such as creating basic transactions and various operation, you need to have a created Account.
 

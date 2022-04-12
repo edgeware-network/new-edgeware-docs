@@ -1,4 +1,6 @@
 ---
+id: welcome
+title: welcome
 slug: /
 sidebar_position: 1
 ---
