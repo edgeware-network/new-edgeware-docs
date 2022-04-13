@@ -3,6 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 module.exports = {
   onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
   title: 'Edgeware',
   tagline: 'Dinosaurs are cool',
   url: 'https://edgewa.re/',
