@@ -1,7 +1,7 @@
 # Ethereum Libraries
 
 {% hint style="warning" %}
-**Proceed with caution! This page is in progress.** :construction\_site:
+**Proceed with caution! This page is in progress.** :construction_site:
 {% endhint %}
 
 In order for a web app to interact with the Ethereum blockchain (i.e. read blockchain data and/or send transactions to the network), it must connect to an Ethereum node.
@@ -33,15 +33,15 @@ For more information on [Ethereum libraries click here](https://ethereum.org/en/
 ### Tutorials for using libraries with Edgeware
 
 {% content-ref url="../../tutorials/deploy-an-evm-contract/using-web3.md" %}
-[using-web3.md](../../tutorials/deploy-an-evm-contract/using-web3.md)
+[using-web3.md](../../../tutorials/deploy-an-evm-contract/using-web3)
 {% endcontent-ref %}
 
 {% content-ref url="../../tutorials/deploy-an-evm-contract/using-web3.py.md" %}
-[using-web3.py.md](../../tutorials/deploy-an-evm-contract/using-web3.py.md)
+[using-web3.py.md](../../../tutorials/deploy-an-evm-contract/using-web3.py)
 {% endcontent-ref %}
 
 {% content-ref url="../../tutorials/deploy-an-evm-contract/using-ethers.js.md" %}
-[using-ethers.js.md](../../tutorials/deploy-an-evm-contract/using-ethers.js.md)
+[using-ethers.js.md](../../../tutorials/deploy-an-evm-contract/using-ethers.js)
 {% endcontent-ref %}
 
 ### Official library documentation guides

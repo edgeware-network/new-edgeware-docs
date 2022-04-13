@@ -34,25 +34,24 @@ Different methods are available inside `provider` and `wallet`. Depending on whi
 
 **Edgeware development node:**
 
-* RPC_URL:  [`http://localhost:9933/`](http://localhost:9933)``
-* ChainId: `2021`
-* NETWORK_NAME: `dev`
+- RPC_URL: [`http://localhost:9933/`](http://localhost:9933)``
+- ChainId: `2021`
+- NETWORK_NAME: `dev`
 
 **Beresheet testnet:**
 
-* RPC_URL:  [`https://beresheet2.edgewa.re/evm`](https://beresheet2.edgewa.re/evm)`(Alternatively, one can use `[`https://beresheetX.edgewa.re/evm`](https://beresheetx.edgewa.re/evm)` where X can be any number from 1 to 8.)`
-* ChainId: `2022`
-* NETWORK_NAME: `Beresheet`
+- RPC_URL: [`https://beresheet2.edgewa.re/evm`](https://beresheet2.edgewa.re/evm)`(Alternatively, one can use `[`https://beresheetX.edgewa.re/evm`](https://beresheetx.edgewa.re/evm)` where X can be any number from 1 to 8.)`
+- ChainId: `2022`
+- NETWORK_NAME: `Beresheet`
 
 **Edgeware mainnet:**
 
-* RPC_URL: [`https://mainnet2.edgewa.re/evm`](https://mainnet2.edgewa.re/evm)`  (Alternatively, one can use  `[`https://mainnetX.edgewa.re/evm`](https://mainnetx.edgewa.re/evm)` where X can be any number from 1 to 20.)`
-* Chain ID: `2021`
-* NETWORK_NAME: `Edgeware`
+- RPC_URL: [`https://mainnet2.edgewa.re/evm`](https://mainnet2.edgewa.re/evm)` (Alternatively, one can use `[`https://mainnetX.edgewa.re/evm`](https://mainnetx.edgewa.re/evm)` where X can be any number from 1 to 20.)`
+- Chain ID: `2021`
+- NETWORK_NAME: `Edgeware`
 
 ### Tutorial for using Ethers.js on Edgeware
 
 {% content-ref url="../../tutorials/deploy-an-evm-contract/using-ethers.js.md" %}
-[using-ethers.js.md](../../tutorials/deploy-an-evm-contract/using-ethers.js.md)
+[using-ethers.js.md](../../../tutorials/deploy-an-evm-contract/using-ethers.js)
 {% endcontent-ref %}
-

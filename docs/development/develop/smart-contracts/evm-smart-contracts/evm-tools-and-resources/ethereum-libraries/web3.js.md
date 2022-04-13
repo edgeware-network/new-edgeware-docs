@@ -12,5 +12,5 @@ For the full user documentation, and API reference for web3.js, [click here](htt
 ### Tutorial for using Web3.js on Edgeware
 
 {% content-ref url="../../tutorials/deploy-an-evm-contract/using-web3.md" %}
-[using-web3.md](../../tutorials/deploy-an-evm-contract/using-web3.md)
+[using-web3.md](../../../tutorials/deploy-an-evm-contract/using-web3)
 {% endcontent-ref %}
