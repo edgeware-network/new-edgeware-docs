@@ -2,6 +2,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 module.exports = {
+  onBrokenLinks: 'ignore',
   title: 'Edgeware',
   tagline: 'Dinosaurs are cool',
   url: 'https://edgewa.re/',
