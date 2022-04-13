@@ -7,7 +7,7 @@ This method involves using the [Polkadot UI ](https://polkadot.js.org/apps/#/exp
 You will need:
 
 - ..to have [created an Edgeware account.](create-an-account.md)
-- ..to have [installed Polkadot.js to your browser and connected your wallet.](connect-an-account-to-a-wallet.md)
+- ..to have installed Polkadot.js to your browser and connected your wallet.
 - Some testnet or mainnet EDG to send.
 
 [Visit the Polkadot UI ](https://polkadot.js.org/apps/#/accounts)and ensure you are connected to the Edgeware network you want to participate in by clicking the network section in the top left. Once connected, click the Accounts tab in the left sidebar, or going directly to the Transfer tab.
