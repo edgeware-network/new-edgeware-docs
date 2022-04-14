@@ -24,19 +24,18 @@ Depending on which network you want to connect to, you can set the `RPC_URL` to 
 
 **Edgeware development node:**
 
-* RPC_URL:  [`http://localhost:9933/`](http://localhost:9933)``
+- RPC_URL: [`http://localhost:9933/`](http://localhost:9933)``
 
 **Beresheet testnet:**
 
-* RPC_URL:  [`https://beresheet2.edgewa.re/evm`](https://beresheet2.edgewa.re/evm)`(Alternatively, one can use `[`https://beresheetX.edgewa.re/evm`](https://beresheetx.edgewa.re/evm)` where X can be any number from 1 to 8.)`
+- RPC_URL: [`https://beresheet2.edgewa.re/evm`](https://beresheet2.edgewa.re/evm)`(Alternatively, one can use `[`https://beresheetX.edgewa.re/evm`](https://beresheetx.edgewa.re/evm)` where X can be any number from 1 to 8.)`
 
 **Edgeware mainnet:**
 
-* RPC_URL: [`https://mainnet2.edgewa.re/evm`](https://mainnet2.edgewa.re/evm)`  (Alternatively, one can use  `[`https://mainnetX.edgewa.re/evm`](https://mainnetx.edgewa.re/evm)` where X can be any number from 1 to 20.)`
+- RPC_URL: [`https://mainnet2.edgewa.re/evm`](https://mainnet2.edgewa.re/evm)` (Alternatively, one can use `[`https://mainnetX.edgewa.re/evm`](https://mainnetx.edgewa.re/evm)` where X can be any number from 1 to 20.)`
 
 ### Tutorial for using Web3.py on Edgeware
 
 {% content-ref url="../../tutorials/deploy-an-evm-contract/using-web3.py.md" %}
-[using-web3.py.md](../../tutorials/deploy-an-evm-contract/using-web3.py.md)
+[using-web3.py.md](../../../tutorials/deploy-an-evm-contract/using-web3.py)
 {% endcontent-ref %}
-
