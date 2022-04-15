@@ -29,4 +29,4 @@ Alternatively you can verify it went through by navigating to the "Chain State" 
 
 ## Undelegate
 
-Once your vote has been undelegated, you’re in control of your voting power again. You can start to vote directly, or chose a different account to act as your representative. In this case, your tokens will be locked for the amount of time in accordance with the conviction you set at the beginning of the delegation. For example, if you chose "2x" delegation (four weeks lock up time), your tokens will be locked for 4 weeks after sending the undelegate transaction.
+Once your vote has been undelegated, you’re in control of your voting power again. You can start to vote directly, or chose a different account to act as your representative. In this case, your tokens will be locked for the amount of time in accordance with the conviction you set at the beginning of the delegation. For example, if you chose "2x" delegation (four weeks lock up time), your tokens will be locked for 4 weeks after sending the `undelegate` transaction.
