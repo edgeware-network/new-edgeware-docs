@@ -20,7 +20,7 @@ module.exports = {
           routeBasePath: '/',//require.resolve('./sidebars.js'),
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/edgeware-network/new-edgeware-docs',
+          editUrl: 'https://github.com/edgeware-network/new-edgeware-docs/blob/main/',
         },
         blog: false,
         // {
