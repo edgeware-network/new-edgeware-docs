@@ -51,6 +51,10 @@ module.exports = {
             position: 'left',
             label: 'Docs',
           },
+          {
+            type: "search",
+            position: "right",
+          },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/edgeware-network/new-edgeware-docs',
@@ -58,6 +62,12 @@ module.exports = {
             position: 'right',
           },
         ],
+      },
+      algolia: {
+        appId: 'BD307D1J2M',
+        // Public API key: it is safe to commit it
+        apiKey: 'fd4a03ad8dabfd843383cad4feba8d58',
+        indexName: 'edgeware',
       },
       prism: {
         theme: lightCodeTheme,
