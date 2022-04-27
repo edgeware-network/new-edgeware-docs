@@ -1,8 +1,8 @@
 # Ethereum Libraries
 
-{% hint style="warning" %}
-**Proceed with caution! This page is in progress.** :construction_site:
-{% endhint %}
+:::caution
+**Proceed with caution! This page is in progress.**
+:::
 
 In order for a web app to interact with the Ethereum blockchain (i.e. read blockchain data and/or send transactions to the network), it must connect to an Ethereum node.
 
@@ -18,42 +18,24 @@ For more information on [Ethereum libraries click here](https://ethereum.org/en/
 
 ### Resources
 
-{% content-ref url="web3.js.md" %}
-[web3.js.md](web3.js.md)
-{% endcontent-ref %}
+[web3.js](web3.js.md)
 
-{% content-ref url="ethers.js.md" %}
-[ethers.js.md](ethers.js.md)
-{% endcontent-ref %}
+[ethers.js](ethers.js.md)
 
-{% content-ref url="web3.py.md" %}
-[web3.py.md](web3.py.md)
-{% endcontent-ref %}
+[web3.py](web3.py.md)
 
 ### Tutorials for using libraries with Edgeware
 
-{% content-ref url="../../tutorials/deploy-an-evm-contract/using-web3.md" %}
-[using-web3.md](../../../tutorials/deploy-an-evm-contract/using-web3)
-{% endcontent-ref %}
+[using-web3](/development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-basics/using-web3.js.md)
 
-{% content-ref url="../../tutorials/deploy-an-evm-contract/using-web3.py.md" %}
-[using-web3.py.md](../../../tutorials/deploy-an-evm-contract/using-web3.py)
-{% endcontent-ref %}
+[using-web3.py](/development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-basics/using-web3.py.md)
 
-{% content-ref url="../../tutorials/deploy-an-evm-contract/using-ethers.js.md" %}
-[using-ethers.js.md](../../../tutorials/deploy-an-evm-contract/using-ethers.js)
-{% endcontent-ref %}
+[using-ethers.js](/development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-basics/using-ethers.js.md)
 
 ### Official library documentation guides
 
-{% embed url="https://web3js.readthedocs.io/en/v1.5.2/" %}
-Official documentation - web3.js
-{% endembed %}
+[Official documentation - web3.js](https://web3js.readthedocs.io/en/v1.5.2/)
 
-{% embed url="https://web3py.readthedocs.io/en/stable/" %}
-Official documentation - web3.py
-{% endembed %}
+[Official documentation - web3.py](https://web3py.readthedocs.io/en/stable/)
 
-{% embed url="https://docs.ethers.io/v5/" %}
-Official documentation - ethers.js
-{% endembed %}
+[Official documentation - ethers.js](https://docs.ethers.io/v5/)

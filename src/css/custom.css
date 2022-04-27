@@ -17,7 +17,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -34,6 +34,73 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-[data-theme='dark'] .docusaurus-highlight-code-line {
+[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+/* side bar menu color */
+[data-theme="dark"] .menu__link--sublist {
+  font-weight: bold;
+  color: #ff3b80;
+  background: none;
+}
+
+/* .edg-colors {
+  --primary-magenta-primary-100: #fbeaf0;
+
+  --primary-magenta-primary-200: #ffcbde;
+
+  --primary-magenta-primary-300: #ffa4c5;
+
+  --primary-magenta-primary-400: #fb6c9f;
+
+  --primary-magenta-primary-500: #ff3b80;
+
+  --primary-magenta-primary-600: #af1850;
+
+  --primary-magenta-primary-700: #660c2d;
+
+  --primary-magenta-primary-800: #300515;
+
+  --primary-magenta-primary-900: #1a000f;
+
+  --grey-grey-100: #f1f1f1;
+
+  --grey-grey-200: #c5c5c5;
+
+  --grey-grey-300: #a8a8a8;
+
+  --grey-grey-400: #8b8b8b;
+
+  --grey-grey-500: #6e6e6e;
+
+  --grey-grey-600: #525252;
+
+  --grey-grey-700: #383838;
+
+  --grey-grey-800: #292929;
+
+  --grey-grey-900: #151515;
+
+  --green-green-100: #eafcf9;
+
+  --green-green-200: #c0f6ee;
+
+  --green-green-300: #97f0e2;
+
+  --green-green-400: #6dead6;
+
+  --green-green-500: #2ee1c5;
+
+  --green-green-600: #25b49e;
+
+  --green-green-700: #1c8776;
+
+  --green-green-800: #0e433b;
+
+  --green-green-900: #051614;
+
+  --bw-black: #000;
+
+  --bw-white: #fff;
+} */
