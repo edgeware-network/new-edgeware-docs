@@ -39,9 +39,9 @@ self.env()
         });
 ```
 
-{% hint style="info" %}
+:::info
 Note: **`value`** does not need a **`Some()`**, as the value is not stored in an **`Option`**.
-{% endhint %}
+:::
 
 We want to emit a Transfer event every time that a transfer takes place. In the ERC-20 template that we have been working on, this occurs in two places: first, during the `new` call, and second, every time that `transfer_from_to` is called.
 
@@ -53,6 +53,7 @@ Remember to run `cargo +nightly test` to test your work.
 
 {% tabs %}
 {% tab title="🔨Starting Point" %}
+
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
 
@@ -115,9 +116,11 @@ mod erc20 {
 
             // Update the sender's balance.
 ```
+
 {% endtab %}
 
 {% tab title="✅Potential Solution" %}
+
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
 
@@ -236,6 +239,6 @@ mod erc20 {
     }
 }
 ```
+
 {% endtab %}
 {% endtabs %}
-

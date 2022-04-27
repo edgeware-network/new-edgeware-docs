@@ -4,13 +4,13 @@
 
 This guide walks you through how to Quickly fire up a personal Edgeware blockchain which you can use to run tests, execute commands, and inspect state while controlling how the chain operates.
 
-{% hint style="info" %}
+:::info
 **Note** This is a fast-track way to run a node. [You can always compile from source](https://github.com/hicommonwealth/edgeware-node/tree/v3.2.0) as well. We recommend using your own compiled binaries for production mainnet.
-{% endhint %}
+:::
 
-{% hint style="info" %}
+:::info
 **Note** If you don't have [Docker installed, you can quickly install it from here](https://docs.docker.com/get-docker/)
-{% endhint %}
+:::
 
 You can clone our repo with docker-compose to get started right away:
 
@@ -22,9 +22,9 @@ cd docker
 docker-compose -f docker-compose-local.yml up
 ```
 
-{% hint style="info" %}
+:::info
 **Note** If you want to reset or purge the local chain, delete the docker container by running **`docker-compose rm`**
-{% endhint %}
+:::
 
 You will see something like this:
 
@@ -39,4 +39,3 @@ Now you can continue to connect [Metamask](https://main.edgeware.wiki/contribute
 ## Reach us for more engagement
 
 Glad you've made it through! 🥰 We are eager to guide your more on your exploration through Edgeware Ethereum compability feature. We are **keen to hear your experience and suggestions you may have for us.**. You can feel free to [chat with us in the Edgeware's channels like Discord, Element and Telegram](https://linktr.ee/edg_developers), we can help you out with issues you may have or project you may want to be funded through our <A HREF = "https://docs.edgeware.wiki/edgeware-stack/economics/treasury">Treasury program</A>. Don't hesitate to share your feedback on our channels, there is always space to improve! 🙌
-

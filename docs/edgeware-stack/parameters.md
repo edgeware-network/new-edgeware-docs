@@ -7,9 +7,9 @@ description: >-
 
 # Parameters
 
-{% hint style="info" %}
+:::info
 This page reflects the runtime [file of the chain viewable at Github](https://github.com/hicommonwealth/edgeware-node/blob/master/node/runtime/src/lib.rs), which is the final source of authority. You can also use the Polkadot.js apps to confirm the current value of these parameters on a testnet or mainnet at[ Chain State tab > Constants > Select Parameter](https://polkadot.js.org/apps/#/chainstate/constants)
-{% endhint %}
+:::
 
 ## Accounts and Transactions
 
@@ -37,11 +37,11 @@ Exact Runtime code specifying constants related to block time and production.
 | **Session** | 60 minutes (600 Blocks) | 600     |
 | **Era**     | 6 hours (6 sessions)    | 3600    |
 
-{% hint style="info" %}
+:::info
 This code is from [https://github.com/hicommonwealth/edgeware-node/blob/master/node/runtime/src/constants.rs](https://github.com/hicommonwealth/edgeware-node/blob/master/node/runtime/src/constants.rs)
 
 It may be out of date on this page, refer to the link above for most up to date runtime data.
-{% endhint %}
+:::
 
 ```
     pub const MILLISECS_PER_BLOCK: Moment = 6000;

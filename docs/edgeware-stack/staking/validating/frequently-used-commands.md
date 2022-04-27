@@ -10,9 +10,9 @@ subkey -n edgeware generate
 
 To start up the Edgeware node and connect to testnet 3.0.5 \(This may be out of date!, run:
 
-{% hint style="danger" %}
+:::danger
 The testnet shown here may be out of date. Check the version and JSON name.
-{% endhint %}
+:::
 
 ```text
 ./target/release/edgeware --chain=chains/testnet-3.0.5.json --name <INSERT_NAME>
@@ -72,9 +72,8 @@ Commonwealth Labs maintains several public node on mainnet and testnet. Please r
 
 **Syntax:**
 
-* wss://testnet1.edgewa.re
+- wss://testnet1.edgewa.re
 
   or \(if wss: fails\)
 
-* ws://testnet1.edgewa.re:9944
-
+- ws://testnet1.edgewa.re:9944

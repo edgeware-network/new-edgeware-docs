@@ -27,7 +27,6 @@ cargo install --git https://github.com/hicommonwealth/cargo-contract cargo-contr
 
 You can then use `cargo contract --help` to start exploring the commands made available to you.
 
-{% hint style="warning" %}
+:::caution
 **Note:** The ink! CLI is under heavy development and some of its commands are not implemented, yet!
-{% endhint %}
-
+:::

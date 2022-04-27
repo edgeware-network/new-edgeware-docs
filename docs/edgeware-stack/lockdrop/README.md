@@ -2,9 +2,9 @@
 
 The Edgeware lockdrop was a token distribution event that occured between June 1-Aug 30 2019. **It is now closed.** Please visit our [blog](https://blog.edgewa.re/) for more information.
 
-{% hint style="info" %}
+:::info
 The EDG tokens will be created upon Network Launch - currently scheduled for 10am, Monday, Feb 17, 2020. All EDG created through the lockdrop will exist at their owner's wallet addresses automatically. See the Get Started page for managing your new EDG and Edgeware account, below. There is no need to 'retrieve' your EDG.
-{% endhint %}
+:::
 
 ## Guides
 
@@ -41,4 +41,3 @@ Bootstrapping security on a new PoS chain. Ethereum is bootstrapping the Serenit
 ### • Contract security:
 
 When calling lock from the Master Lockdrop Contract, an individual Lockdrop User Contract is created, which actually holds the time-locked ETH of a participant. This significantly improves fund security, because value is not stored
-

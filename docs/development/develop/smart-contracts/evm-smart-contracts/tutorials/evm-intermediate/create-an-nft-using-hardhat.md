@@ -42,15 +42,15 @@ module.exports = {
 
 {% tabs %}
 {% tab title="Potential Error" %}
-{% hint style="danger" %}
+:::danger
 Error: 'You need to install hardhat locally to use it.'
-{% endhint %}
+:::
 {% endtab %}
 
 {% tab title="Solution" %}
 {% hint style="success" %}
 Run: **`npm install -save-dev "hardhat@^2.6.5"`** in your hardhat project's root directory
-{% endhint %}
+:::
 {% endtab %}
 {% endtabs %}
 
@@ -256,9 +256,9 @@ main()
 {% endtab %}
 {% endtabs %}
 
-{% hint style="info" %}
+:::info
 You might want to remove `console.log()` before you deploy. And then run this deploy script with:
-{% endhint %}
+:::
 
 {% tabs %}
 {% tab title="terminal" %}

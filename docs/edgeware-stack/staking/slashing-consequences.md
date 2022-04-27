@@ -4,9 +4,9 @@
 
 Slashing will happen if a validator misbehaves \(e.g. goes offline, attacks the network, or runs modified software\) in the network. They and their nominators will get slashed by losing a percentage of their bonded/staked EDG.
 
-{% hint style="info" %}
+:::info
 Validator pools with larger total stake backing them will get slashed more harshly than less popular ones, so we encourage nominators to shift their nominations to less popular validators to reduce the possible losses.
-{% endhint %}
+:::
 
 Based on Substate's latest codebase, the following slashing conditions have been implemented:
 
@@ -71,4 +71,3 @@ For example, assume the block reward for a validator is 10 DOTs. A validator may
 Rewards can be directed to the same account \(controller\) or to the stash account \(and either increasing the staked value or not increasing the staked value\). It is also possible to top-up / withdraw some bonded DOTs without having to un-stake everything.
 
 ## Inflation
-

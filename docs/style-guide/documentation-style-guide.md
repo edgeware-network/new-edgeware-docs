@@ -6,12 +6,12 @@ There are many user-executable functions in Edgeware. It is helpful to note what
 
 **Example:**
 
-| Function Supported By: |
-| :--- |
-| [Polkadot UI](https://polkadot.js.org/apps/#/explorer) |
-| [Commonwealth UI](http://commonwealth.im/) |
+| Function Supported By:                                   |
+| :------------------------------------------------------- |
+| [Polkadot UI](https://polkadot.js.org/apps/#/explorer)   |
+| [Commonwealth UI](http://commonwealth.im/)               |
 | [Polkascan](https://polkascan.io/pre/edgeware/dashboard) |
-| [Polkassembly](https://polkassembly.io/) |
+| [Polkassembly](https://polkassembly.io/)                 |
 
 ## Linking to Substrate Documentation
 
@@ -19,9 +19,9 @@ Where possible, insert a hint with the link to the appropriate Substrate.dev doc
 
 **Example:**
 
-{% hint style="info" %}
+:::info
 **Substrate Documentation** for[ Treasury Module](https://substrate.dev/rustdocs/master/pallet_treasury/index.html)
-{% endhint %}
+:::
 
 ## Parameter Noting
 
@@ -29,7 +29,6 @@ Whenever documentation refers to a parameter modifiable through governance, a "h
 
 **Example**
 
-{% hint style="info" %}
+:::info
 **Parameter Note:** This hint block should name the parameter and state the current setting.
-{% endhint %}
-
+:::

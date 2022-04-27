@@ -20,9 +20,9 @@ At the resolution of the vote the `TallyType`, changes the method by which votes
 
 Following the resolution of a vote, there is a delay before implementing any change–**initially set to two weeks.**
 
-{% hint style="info" %}
+:::info
 **Parameter Note:** The implementation delay for concluded referenda is set to 2 weeks.
-{% endhint %}
+:::
 
 ## Delegated Voting
 
@@ -30,7 +30,6 @@ Additionally, the democracy module allows for delegated voting, the middle point
 
 **Delegation can be recursive, a delegate can re-delegate to another, using their own voting power and also the delegated voting power of others.** Edgeware mitigates an attack where a malicious individual may manipulate the depth of a delegation tree to an extreme depth. Instead of forcing all nodes tallying votes to traverse a deep tree of delegates, Edgeware limits the delegation to five. Cyclic delegation additionally prevented. Democracy will be extended by adding support for a different VotingType such as enabling rank-choice and anonymous voting, where accounts are directly linked to their cast ballot. Or by adding different TallyingTypes such as quadratic voting.
 
-{% hint style="info" %}
+:::info
 Delegation is limited to 5 levels deep. No vote can be delegated more than 5 times.
-{% endhint %}
-
+:::
