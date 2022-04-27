@@ -39,11 +39,11 @@
 }
 
 /* side bar menu color */
-[data-theme="dark"] .menu__link--sublist {
+/* [data-theme="dark"] .menu__link--sublist {
   font-weight: bold;
   color: #ff3b80;
   background: none;
-}
+} */
 
 /* .edg-colors {
   --primary-magenta-primary-100: #fbeaf0;
