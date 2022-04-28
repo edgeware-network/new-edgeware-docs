@@ -32,10 +32,8 @@ Depending on which network you want to connect to, you can set the `RPC_URL` to 
 
 **Edgeware mainnet:**
 
-- RPC_URL: [`https://mainnet2.edgewa.re/evm`](https://mainnet2.edgewa.re/evm)` (Alternatively, one can use `[`https://mainnetX.edgewa.re/evm`](https://mainnetx.edgewa.re/evm)` where X can be any number from 1 to 20.)`
+- RPC_URL: [`https://mainnet2.edgewa.re/evm`](https://mainnet2.edgewa.re/evm)`(Alternatively, one can use`[`https://mainnetX.edgewa.re/evm`](https://mainnetx.edgewa.re/evm)` where X can be any number from 1 to 20.)`
 
 ### Tutorial for using Web3.py on Edgeware
 
-{% content-ref url="../../tutorials/deploy-an-evm-contract/using-web3.py.md" %}
-[using-web3.py.md](../../../tutorials/deploy-an-evm-contract/using-web3.py)
-{% endcontent-ref %}
+[using-web3.py](development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-basics/using-web3.py.md)

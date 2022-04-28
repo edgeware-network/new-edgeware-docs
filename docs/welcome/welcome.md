@@ -11,7 +11,9 @@ Welcome to the official documentation for the Edgeware network! This documentati
 
 - **Announcements and News** [are published in The Cutting EDG](https://blog.edgewa.re/)
 
-{% page-ref page="resources/networks.md" %}
+:::tip
+[Networks and Public Endpoints](../resources/networks.md)
+:::
 
 ### Upgrade Schedule
 

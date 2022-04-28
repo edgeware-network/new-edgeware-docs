@@ -24,12 +24,9 @@ docker run --rm -it decentration/edgeware:v3.3.3 edgeware --chain=beresheet --na
 
 For any additional questions or information, refer to our `builders-general` channel in the [Edgeware Discord](https://discord.gg/zdFJm4gA5M).
 
-{% content-ref url="../../quickstart/set-up-a-full-node.md" %}
-[set-up-a-full-node.md](../../../quickstart/set-up-a-full-node)
-{% endcontent-ref %}
+[set up a full node](../../quickstart/set-up-a-full-node.md)
 
-{% content-ref url="../../development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/setting-up-a-edgeware-evm-node.md" %}
-[setting-up-a-edgeware-evm-node.md](../../../development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/setting-up-a-edgeware-evm-node)
-{% endcontent-ref %}
+[setting up a edgeware evm node](../../development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-basics/setting-up-a-edgeware-evm-node.md)
 
-[running-an-edgeware-node.md](../../../development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-setup/running-an-edgeware-node)
+[running an edgeware node](../../development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-setup/running-an-edgeware-node.md)
+∂

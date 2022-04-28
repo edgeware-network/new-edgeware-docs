@@ -10,9 +10,9 @@ These funds can be deployed through a Treasury Spend action which is subject to 
 
 When a stakeholder wishes to propose a spend from the treasury, **they must reserve a deposit totaling 5% of the proposed spend, with a minimum of 1000 EDG**
 
-{% hint style="info" %}
+:::info
 **Parameter Note:** The Treasury Spend Deposit is 5% of the proposed spend action, with a minimum of 1000 EDG.
-{% endhint %}
+:::
 
 **This deposit will be slashed if the proposal is rejected,** and returned if the proposal was accepted.
 
@@ -45,9 +45,9 @@ The treasury obtains funds in several ways that mimic governments - minting, fee
 4. **Staking inefficiency:** [Inflation](https://wiki.polkadot.network/docs/en/learn-staking#inflation) is designed to be \~20% in the first year, and the ideal staking ratio is set at 80%, meaning 80% of all tokens should be locked in staking. Any deviation from this ratio will cause a proportional amount of the inflation to go to the Treasury. In other words, if 80% of all tokens are staked, then 100% of the inflation goes to the validators as reward. If the staking rate is greater than or less than 80%, then the validators will receive less, with the remainder going to the Treasury.
 5. **Lost Deposits:** These may be abandoned bonds from voting, proposals or otherwise.
 
-{% hint style="info" %}
+:::info
 **Parameter Note:** The _ideal staking ratio_ used in the Edgeware economic model is currently 80%. _Inflation_ is currently set to about 20%, or 158 EDG per block.
-{% endhint %}
+:::
 
 \*\*\*\*
 
@@ -112,9 +112,9 @@ Once created, your proposal will become visible in the Treasury screen and the c
 
 Now the council can take action, either turning it into a motion to approve or a motion to reject. 51% or more of the council must agree to take an action on any treasury spend.
 
-{% hint style="info" %}
+:::info
 **Parameter Note:** The _Treasury Spend Deposit_ is 5% of the proposed spend action, with a minimum of 1000 EDG. _Treasury Spends_ require 51% of the council to agree.
-{% endhint %}
+:::
 
 #### Speak with the Community
 

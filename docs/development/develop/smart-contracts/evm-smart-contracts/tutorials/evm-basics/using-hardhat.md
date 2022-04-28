@@ -1,8 +1,8 @@
 # Using Hardhat
 
-{% hint style="danger" %}
+:::danger
 **This page is still under development. Many functionalities of this page are still being worked on until further notice. To help our efforts, add a pull request with revised changes, thank you.**
-{% endhint %}
+:::
 
 ![](https://user-images.githubusercontent.com/32852637/118346510-0437d380-b50a-11eb-9fc2-267d0b20777b.png)
 
@@ -18,11 +18,11 @@ A lot of Hardhat's functionality comes from plugins, and, as a developer, you're
 
 To follow this tutorial you should be able to:
 
-* [Write code in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
-* [Operate a terminal](https://en.wikipedia.org/wiki/Terminal_emulator)
-* [Use git](https://git-scm.com/doc)
-* [Understand the basics of how smart contracts work](https://ethereum.org/learn/#smart-contracts)
-* [Set up a Metamask wallet](https://metamask.io/)
+- [Write code in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+- [Operate a terminal](https://en.wikipedia.org/wiki/Terminal_emulator)
+- [Use git](https://git-scm.com/doc)
+- [Understand the basics of how smart contracts work](https://ethereum.org/learn/#smart-contracts)
+- [Set up a Metamask wallet](https://metamask.io/)
 
 ## Installation
 
@@ -30,6 +30,7 @@ We need to install Node.js and npm package manager. You can download directly fr
 
 {% tabs %}
 {% tab title="Mac OS" %}
+
 ```text
 # You can use homebrew (https://docs.brew.sh/Installation)
 brew install node`
@@ -37,16 +38,19 @@ brew install node`
 # Or you can use nvm (https://github.com/nvm-sh/nvm)
 nvm install node
 ```
+
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Linux" %}
+
 ```text
 curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
 
 sudo apt install -y nodejs
 ```
+
 {% endtab %}
 {% endtabs %}
 
@@ -60,8 +64,8 @@ As of writing of this guide, the versions used were 15.7.0 and 7.4.3, respective
 
 Also, you will need the following:
 
-* Have MetaMask installed and connected to Beresheet
-* Have an account with funds, which you can get from the automated bot on the Edgeware discord \(_in construction_\)
+- Have MetaMask installed and connected to Beresheet
+- Have an account with funds, which you can get from the automated bot on the Edgeware discord \(_in construction_\)
 
   To send funds to your meta mask you have to first convert your EVM address to a mainnet address. You can do so here at the bottom of the page [https://edgewa.re/keygen](https://edgewa.re/keygen) \(Convert Metamask/EVM address to mainnet address\)
 
@@ -97,9 +101,9 @@ npx hardhat
 
 This will create a Hardhat config file \(hardhat.config.js\) in our project directory.
 
-{% hint style="info" %}
+:::info
 `npx` is used to run executables installed locally in your project. Although Hardhat can be installed globally, we recommend installing locally in each project so that you can control the version on a project by project basis.
-{% endhint %}
+:::
 
 After running the command, choose `Create an empty hardhat.config.js` by using the arrow keys and enter:
 
@@ -111,9 +115,9 @@ We are going to store our contract in the `contracts` directory. Create it:
 
 `mkdir contracts && cd contracts` or by creating a new directory under our root directory 'EDGHAT' in a text-editor such as [Visual Studio Code](https://code.visualstudio.com/)
 
-{% hint style="info" %}
+:::info
 Editing directories in the terminal can be replicated in a text-editor at any point in this tutorial.
-{% endhint %}
+:::
 
 The smart contract that we'll deploy as an example will be called Box: it will let people store a value that can be later retrieved.
 
@@ -166,30 +170,30 @@ The private.json file must contain a privateKey entry, for example:
 
 Inside the `module.exports`, we need to provide the Solidity version \(`0.8.1` according to our contract file\), and the network details. Here, we are using testnet\(Beresheet\) network for the following example :
 
-* Network name: Beresheet
-* RPC URL: [https://beresheet2.edgewa.re/evm](https://beresheet2.edgewa.re/evm) \(Alternatively, one can use [https://beresheetX.edgewa.re/evm](https://beresheetX.edgewa.re/evm) where X can be any number from 1 to 8.\)
-* Chain ID: 2022
+- Network name: Beresheet
+- RPC URL: [https://beresheet2.edgewa.re/evm](https://beresheet2.edgewa.re/evm) \(Alternatively, one can use [https://beresheetX.edgewa.re/evm](https://beresheetX.edgewa.re/evm) where X can be any number from 1 to 8.\)
+- Chain ID: 2022
 
 If you want to deploy to a local Edgeware development node, you can use the following network details:
 
-* Network name: dev
-* RPC URL: [http://localhost:9933/](http://localhost:9933/)
-* Chain ID: 2021
+- Network name: dev
+- RPC URL: [http://localhost:9933/](http://localhost:9933/)
+- Chain ID: 2021
 
 If you want to deploy on the Edgeware mainnet, you can use the following network details:
 
-* Network name: Edgeware
-* RPC URL: [https://mainnet2.edgewa.re/evm](https://mainnet2.edgewa.re/evm) \(Alternatively, one can use [https://mainnetX.edgewa.re/evm](https://mainnetX.edgewa.re/evm) where X can be any number from 1 to 20.\)
-* Chain ID: 2021
+- Network name: Edgeware
+- RPC URL: [https://mainnet2.edgewa.re/evm](https://mainnet2.edgewa.re/evm) \(Alternatively, one can use [https://mainnetX.edgewa.re/evm](https://mainnetX.edgewa.re/evm) where X can be any number from 1 to 20.\)
+- Chain ID: 2021
 
 The Hardhat configuration file should look like this:
 
 ```javascript
 // ethers plugin required to interact with the contract
-require('@nomiclabs/hardhat-ethers');
+require("@nomiclabs/hardhat-ethers");
 
 // private key from the pre-funded Beresheet testing account
-const { privateKey } = require('./private.json');
+const { privateKey } = require("./private.json");
 
 module.exports = {
   // latest Solidity version
@@ -200,9 +204,9 @@ module.exports = {
     Beresheet: {
       url: `https://beresheet2.edgewa.re/evm`,
       chainId: 2022,
-      accounts: [privateKey]
-    }
-  }
+      accounts: [privateKey],
+    },
+  },
 };
 ```
 
@@ -236,24 +240,24 @@ We start by creating a local instance of the contract with the `getContractFacto
 ```javascript
 // scripts/deploy.js
 async function main() {
-   // We get the contract to deploy
-   const Box = await ethers.getContractFactory('Box');
-   console.log('Deploying Box...');
+  // We get the contract to deploy
+  const Box = await ethers.getContractFactory("Box");
+  console.log("Deploying Box...");
 
-   // Instantiating a new Box smart contract
-   const box = await Box.deploy();
+  // Instantiating a new Box smart contract
+  const box = await Box.deploy();
 
-   // Waiting for the deployment to resolve
-   await box.deployed();
-   console.log('Box deployed to:', box.address);
+  // Waiting for the deployment to resolve
+  await box.deployed();
+  console.log("Box deployed to:", box.address);
 }
 
 main()
-   .then(() => process.exit(0))
-   .catch((error) => {
-      console.error(error);
-      process.exit(1);
-   });
+  .then(() => process.exit(0))
+  .catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });
 ```
 
 Using the run command, we can now deploy the Box contract to Beresheet.
@@ -262,9 +266,9 @@ Using the run command, we can now deploy the Box contract to Beresheet.
 npx hardhat run --network Beresheet scripts/deploy.js
 ```
 
-{% hint style="info" %}
+:::info
 To deploy to an Edgeware development node, replace Beresheet for dev in the run command.
-{% endhint %}
+:::
 
 After a few seconds, the contract is deployed, and you should see the address in the terminal.
 
@@ -274,9 +278,9 @@ Congratulations, your contract is live! Save the address, as we will use it to i
 
 ## Interacting with the Contract
 
-{% hint style="warning" %}
+:::caution
 Limited functionality
-{% endhint %}
+:::
 
 Let's use Hardhat to interact with our newly deployed contract in Beresheet. To do so, launch hardhat console by running:
 
@@ -284,9 +288,9 @@ Let's use Hardhat to interact with our newly deployed contract in Beresheet. To 
 npx hardhat console --network Beresheet
 ```
 
-{% hint style="info" %}
+:::info
 To deploy to an Edgeware development node, replace Beresheet for dev in the run command.
-{% endhint %}
+:::
 
 Then, add the following lines of code one line at a time. First, we create a local instance of the `Box.sol` contract once again. Don't worry about the `undefined` output you will get after each line is executed:
 
@@ -321,4 +325,3 @@ We should see `5` or the value you have stored initially.
 Congratulations, you have completed the Hardhat tutorial!
 
 For more information on Hardhat, hardhat plugins, and other exciting functionality, please visit [hardhat.org](https://hardhat.org).
-

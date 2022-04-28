@@ -9,7 +9,7 @@ Whereas a completely new blob of smart contract source code is deployed each tim
 In Substrate, the contract deployment process is split into two halves:
 
 1. Putting your code on the blockchain
-2. Creating an instance of your contract  
+2. Creating an instance of your contract
 
 With this pattern, contract code like the ERC20 standard can be put on the blockchain a single time, but instantiated any number of times. No need to continually upload the same source code over and waste space on the blockchain.
 
@@ -37,9 +37,9 @@ To instantiate our contract we just need to give this contract account an _**end
 
 ![](https://user-images.githubusercontent.com/32852637/111108637-a69a0180-852f-11eb-8536-3172307771ed.PNG)
 
-{% hint style="info" %}
+:::info
 **Note:** As mentioned earlier, contract creation involves creation of a new Account. As such, you must be sure to give the contract account at least the existential deposit defined by your blockchain. We also need to be able to pay the contract's rent \(**`endowment`**\). If we consume all of this deposit, the contract will become invalid. We can always refill the contract's balance and keep it on chain.
-{% endhint %}
+:::
 
 You will then **authorize** the contract, by **signing and submitting**. You can also choose to leave a tip for the block author if you'd like.
 
@@ -48,4 +48,3 @@ You will then **authorize** the contract, by **signing and submitting**. You can
 When you press **Deploy**, you should see a flurry of events appear including the creation of a new account \(`system.NewAccount`\) and the instantiation of the contract \(`contracts.instantiate`\):
 
 ![](https://user-images.githubusercontent.com/32852637/111108864-0f817980-8530-11eb-9a43-da24dc192bfa.PNG)
-

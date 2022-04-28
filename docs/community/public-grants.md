@@ -10,9 +10,9 @@ Edgeware has an on-chain public treasury composed of funds from several sources,
 
 In general, the process takes 9 days from proposal launch on-chain, but the drafting and engagement periods average 1-1.5 months.
 
-{% hint style="info" %}
+:::tip
 Looking for smaller awards of EDG? Read about [Tips,](../edgeware-stack/economics/treasury/tipping-function.md) an easy way to request the public award a task or contribution to the network.
-{% endhint %}
+:::
 
 ### Oversight of Public Payments <a href="oversight-of-public-payments" id="oversight-of-public-payments"></a>
 
@@ -20,25 +20,21 @@ There are a few different ways that funds are allocated that improve the risk of
 
 **Under $5000**
 
-* Payments can be sent directly to a recipient.
-* Payment can be provided up front in order to enable work delivery.
-* Payment can also be provided after the work is complete, for smaller tasks.
-
-
+- Payments can be sent directly to a recipient.
+- Payment can be provided up front in order to enable work delivery.
+- Payment can also be provided after the work is complete, for smaller tasks.
 
 **Between $5,000 and $10,000**
 
-* A multisig occupied by community members and your team ensures oversight, and sub-disbursements.
-* Payments will be split into 'deposit' and final fulfillment.
+- A multisig occupied by community members and your team ensures oversight, and sub-disbursements.
+- Payments will be split into 'deposit' and final fulfillment.
 
 **For amounts above $10,000**
 
-* The above conditions will apply.
-* Additionally, you will structure your proposal into 'milestones,' and when each is delivered, you will receive the next tranche of funds.
-* You may be asked to deliver a small amount of work upfront before receiving your first payment in order to build trust if the recipient lacks in-chain reputation.
-* This multi-proposal milestone approach ensures that the EDG you receive is priced comparative to USD so that you are not subject to price volatility, and have the amount per milestone that will actually enable your deliverable.
-
-
+- The above conditions will apply.
+- Additionally, you will structure your proposal into 'milestones,' and when each is delivered, you will receive the next tranche of funds.
+- You may be asked to deliver a small amount of work upfront before receiving your first payment in order to build trust if the recipient lacks in-chain reputation.
+- This multi-proposal milestone approach ensures that the EDG you receive is priced comparative to USD so that you are not subject to price volatility, and have the amount per milestone that will actually enable your deliverable.
 
 ## Step 1: Draft your proposal. <a href="step-1-draft-your-proposal" id="step-1-draft-your-proposal"></a>
 
@@ -82,7 +78,7 @@ In Edgeware, treasury proposals have two stages:
 
 ### Create the Treasury Proposal <a href="create-the-treasury-proposal" id="create-the-treasury-proposal"></a>
 
-__
+\_\_
 
 **Bond**
 
@@ -92,7 +88,7 @@ The bond exists to prevent people from abusing the proposal system and protects 
 
 **Call Hash and Call Data**
 
-These are important data about the extrinsic that** **you should record and save for technical use in other steps or troubleshooting. Feel free to enter this directly on your proposal text for safekeeping. 
+These are important data about the extrinsic that\*\* \*\*you should record and save for technical use in other steps or troubleshooting. Feel free to enter this directly on your proposal text for safekeeping.
 
 ### Create the Referenda <a href="create-the-referenda" id="create-the-referenda"></a>
 
@@ -124,7 +120,7 @@ You will be using a multisig with a minimum of 2-of-3 threshold. You will need t
 
 If the grant is lower than 5000 USD, you probably will receive the disbursement directly to the account shown in your proposal template. You may control and use these through traditional transaction methods. (Link to Docs, Sending a Transaction)
 
-###  <a href="h-1" id="h-1"></a>
+### <a href="h-1" id="h-1"></a>
 
 ### Managing and Using Funds <a href="managing-and-using-funds" id="managing-and-using-funds"></a>
 
@@ -132,13 +128,13 @@ We recommend Polkadot.js application for managing your funds. This involves a Me
 
 1. [Browser Extension ](https://polkadot.js.org/extension/)and [Polkadot Apps](https://polkadot.js.org/apps/#/explorer)
 2. Website: [www.edgeware.app](https://www.edgeware.app) (Requires browser extension from first link.)
-3. Mathwallet or other wallets. 
+3. Mathwallet or other wallets.
 
 **What if there are issues with our funds?**
 
 Cutting-edge technology comes with growing pains. Sometimes, funds can be sent to the wrong address, the public market valuation of your EDG may change drastically, or other losses may occur. These will be judged on a case-by-case basis, but for the most part, there are three avenues to explore:
 
-* **Active:** Re-proposal
-  * You may create a new treasury proposal and explain the need to cover the loss in a new post, follow the above guidance like the first proposal.
+- **Active:** Re-proposal
+  - You may create a new treasury proposal and explain the need to cover the loss in a new post, follow the above guidance like the first proposal.
 
-****
+---

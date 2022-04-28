@@ -20,9 +20,9 @@ During the lockdrop, the keypairs that were generated with Subkey were encoded u
 
 You can also get the new version of your address in two other ways - the Polkadot UI or the Subkey tool.
 
-{% hint style="warning" %}
+:::caution
 The Polkadot.js **Browser Extension** does not display the Edgeware network ID encoded at this time, **but the Polkadot UI does.**
-{% endhint %}
+:::
 
 {% tabs %}
 {% tab title="Easy Mode: Subscan Tool" %}
@@ -42,9 +42,9 @@ Alternatively, you can use the Accounts tab to do the same if you've connected v
 {% endtab %}
 
 {% tab title="Using Subkey CLI" %}
-{% hint style="info" %}
+:::info
 This process requires the latest version of the Subkey program in order to select Edgeware as the network.
-{% endhint %}
+:::
 
 You can generate a new key with the Edgeware network ID using
 
@@ -95,9 +95,9 @@ Secret phrase `submit hotel naive plate among decorate ghost speak exchange mimi
 {% endtab %}
 {% endtabs %}
 
-{% hint style="info" %}
+:::info
 On Commonwealth.im, when Edgeware mainnet is enabled, the inputs will auto-derive the SS58 with the correct network ID, however, using the default-ID-ss58 outside of Commonwealth.im will likely result in errors that may endanger funds. To be safe, always use the Edgeware Network ID SS58 Address.
-{% endhint %}
+:::
 
 ## Connect Your Account
 
@@ -141,8 +141,8 @@ At this time, the two main block explorers are
 
 Both of these explorers will only work with Public Addresses (SS58) that have the Edgeware network ID encoded.
 
-{% hint style="info" %}
+:::info
 If you have not re-encoded your public address from you Lockdrop-created keypair with the new Edgeware network ID, you **must do so** in order to use block explorers to find your account. Follow the instructions linked below.
-{% endhint %}
+:::
 
 Once you have your re-encoded Public Address, you can enter it into the search bar in a block explorer to pull up your account and view the balance.

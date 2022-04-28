@@ -2,12 +2,12 @@
 
 This guide covers how to set up an Edgeware node. There are two ways you can proceed:
 
-* Setting up a private node, e.g. if you would like to run a validator
-* Setting up a public node, e.g. if you want to run connect services or dapps to Edgeware
+- Setting up a private node, e.g. if you would like to run a validator
+- Setting up a public node, e.g. if you want to run connect services or dapps to Edgeware
 
-{% hint style="info" %}
+:::info
 To quickly run node from **Docker** image: [https://hub.docker.com/repository/docker/hicommonwealth/edgeware](https://hub.docker.com/repository/docker/hicommonwealth/edgeware)
-{% endhint %}
+:::
 
 If you are running a private node, you will only need to follow **steps 0 and 1** of this guide. Otherwise, we will guide you through setting up an SSL certificate in **steps 2 and 3**, so any browser can securely connect to your node. (Most people, including validators, only need to set up a private node.)
 
@@ -15,13 +15,13 @@ If you are running a private node, you will only need to follow **steps 0 and 1*
 
 Provision an appropriately sized server from a reputable VPS provider, e.g.:
 
-* [Vultr](https://www.vultr.com)
-* [DigitalOcean](https://www.digitalocean.com)
-* [Linode](https://www.linode.com)
-* [OVH](https://www.ovh.com.au)
-* [Contabo](https://contabo.com)
-* [Scaleway](https://www.scaleway.com/en/)
-* [Amazon AWS](https://aws.amazon.com), etc.
+- [Vultr](https://www.vultr.com)
+- [DigitalOcean](https://www.digitalocean.com)
+- [Linode](https://www.linode.com)
+- [OVH](https://www.ovh.com.au)
+- [Contabo](https://contabo.com)
+- [Scaleway](https://www.scaleway.com/en/)
+- [Amazon AWS](https://aws.amazon.com), etc.
 
 We recommend a node with at least 2GB of RAM, and Ubuntu 18.04 x64. Other operating systems will require adjustments to these instructions.
 
@@ -235,8 +235,8 @@ bin/edge -r ws://testnet1.edgewa.re:9944 balances freeBalance 5G8jA2TLTQqnofx2jC
 
 In general, you should use these URLs to connect to your node:
 
-* `ws://testnet1.edgewa.re:9944` if you set it up as a public node with `--ws-external` in step 1
-* `wss://testnet1.edgewa.re` if you set it up as a public node and also followed steps 2 and 3
+- `ws://testnet1.edgewa.re:9944` if you set it up as a public node with `--ws-external` in step 1
+- `wss://testnet1.edgewa.re` if you set it up as a public node and also followed steps 2 and 3
 
 ## 5. Next steps
 

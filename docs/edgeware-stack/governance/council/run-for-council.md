@@ -8,9 +8,9 @@ The council is an elected body of on-chain accounts that are intended to represe
 
 Submitting your candidacy for the council requires a bond of 1000 EDG.
 
-{% hint style="info" %}
+:::info
 **Parameter Note:** The Candidacy Bond, or the current minimum bond to submit candidacy is 1000 EDG.
-{% endhint %}
+:::
 
 The bond will be forfeited if your candidacy does not win or become a runner-up, but if you become a member of the council you will eventually get your bond back. Runner-ups are selected after every round and are reserved members in case one of the winners gets forcefully removed.
 
@@ -51,4 +51,3 @@ If you are one of the lucky ones to win a council election you will see your acc
 ![e](https://wiki.polkadot.network/docs/assets/council/member.png)
 
 Congratulations! Now you are able to participate on the council by making motions or vetoing proposals. It's a good idea to now add an Identity so that others know who the account belongs to and[ join the Commonwealth Edgeware forum.](https://commonwealth.im/edgeware/discussions)
-
