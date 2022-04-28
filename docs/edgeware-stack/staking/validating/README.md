@@ -1,6 +1,6 @@
 # Validating
 
-## The Validator Election Process[¶](./) <a href="the-election-process" id="the-election-process"></a>
+## The Validator Election Process
 
 You can look at our quick start guide to start participating in validating
 

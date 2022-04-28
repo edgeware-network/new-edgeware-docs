@@ -6,8 +6,8 @@ module.exports = {
   tagline: 'Dinosaurs are cool',
   url: 'https://edgewa.re/',
   baseUrl: '/',
-  onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'ignore',
+  // onBrokenLinks: 'ignore',
+  // onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/edgeware-main-logomark.svg',
   organizationName: 'edgeware-network', // Usually your GitHub org/user name.
   projectName: 'edgeware', // Usually your repo name.

@@ -1,10 +1,10 @@
 # Ethers.js
 
-### Introduction <a href="introduction" id="introduction"></a>
+### Introduction
 
 The [ethers.js](https://docs.ethers.io) library provides a set of tools to interact with Ethereum Nodes with JavaScript, similar to web3.js. Edgeare has an Ethereum-like API available that is fully compatible with Ethereum-style JSON RPC invocations. Therefore, developers can leverage this compatibility and use the ethers.js library to interact with an Edgeware node as if they were doing so on Ethereum. You can read more about ethers.js on this [blog post](https://medium.com/l4-media/announcing-ethers-js-a-web3-alternative-6f134fdd06f3).
 
-### Setup Ethers.js with Edgeware <a href="setup-ethersjs-with-moonbeam" id="setup-ethersjs-with-moonbeam"></a>
+### Setup Ethers.js with Edgeware
 
 To get started with the ethers.js library, install it using the following command:
 

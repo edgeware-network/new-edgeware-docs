@@ -23,7 +23,7 @@ Nominating a Validator means that you delegate your EDG to be used for their val
 {% tabs %}
 {% tab title="Using the Polkadot.js UI (Polkadot Apps)" %}
 
-#### Step 1: Bond your tokens <a href="step-1-bond-your-tokens" id="step-1-bond-your-tokens"></a>
+#### Step 1: Bond your tokens
 
 **Prerequisites:**
 
