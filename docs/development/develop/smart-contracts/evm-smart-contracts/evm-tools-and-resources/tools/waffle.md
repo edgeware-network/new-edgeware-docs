@@ -4,7 +4,7 @@
 
 [Waffle](https://www.getwaffle.io) is a popular development framework for testing Solidity smart contracts. Since Edgeware is Ethereum compatible, with a few lines of extra configuration, you can use Edgeware as you normally would with Ethereum to develop on Edgeware.
 
-### Configure Waffle to Connect to Edgeware <a href="configure-waffle-to-connect-to-moonbeam" id="configure-waffle-to-connect-to-moonbeam"></a>
+### Configure Waffle to Connect to Edgeware
 
 Assuming you already have a JavaScript or TypeScript project, install Waffle:
 
