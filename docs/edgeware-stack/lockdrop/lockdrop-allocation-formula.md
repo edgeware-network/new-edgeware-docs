@@ -4,7 +4,7 @@
 
 From the [**Lockdrop Conclusion Metrics page**](https://commonwealth.im/edgeware/stats)**, backed up here:**
 
-{% hint style="success" %}
+:::tip
 The final ETH/EDG ratio is **1 ETH : 1,156 EDG.**
 :::
 

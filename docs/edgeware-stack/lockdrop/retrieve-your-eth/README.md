@@ -23,12 +23,13 @@ First, note the difference between a LUC and the MLC:
 
 To retrieve your ETH, your lock duration must be complete or the transaction will fail. Before proceeding with this guide, check that your duration is over:
 
-{% content-ref url="../check-the-status-of-your-lock-duration-and-unlock-date.md" %}
-[check-the-status-of-your-lock-duration-and-unlock-date.md](../check-the-status-of-your-lock-duration-and-unlock-date.md)
-{% endcontent-ref %}
+[Check the Status of Your Lock Duration and Unlock Date](edgeware-stack/lockdrop/check-the-status-of-your-lock-duration-and-unlock-date.md)
 
-{% tabs %}
-{% tab title="Send a Transaction Manually" %}
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="send" label="Send a Transaction Manually">
 
 ### Prerequisites
 
@@ -54,12 +55,13 @@ Unlock attempts fail due to three main reasons:
 - The LUC is not yet past it's unlock date of 3, 6 or 12 months.
 - The gas limit needs to be increased to 40k.
 - You are attempting to send the transaction to an MLC and not your LUC.
-  :::
+
+:::
 
 Now watch for the transaction to be finalized, and confirm that your ETH arrived home safely.
-{% endtab %}
 
-{% tab title="Commonwealth Unlock Tool " %}
+</TabItem>
+<TabItem value="solution" label="Commonwealth Unlock Tool">
 
 ### Prerequisites
 
@@ -92,6 +94,8 @@ Unlock attempts fail due to two main reasons:
 
 - The LUC is not yet past it's unlock date of 3, 6 or 12 months.
 - The gas limit needs to be increased to 40k.
-  :::
-  {% endtab %}
-  {% endtabs %}
+
+:::
+
+</TabItem>
+</Tabs>

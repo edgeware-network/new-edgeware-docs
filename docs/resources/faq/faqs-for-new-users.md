@@ -24,7 +24,7 @@ In the future, the network may vote to make Edgeware a relay chain, just like Po
 
 Here is a list of links for community videos and translated guides:
 
-{% embed url="https://blog.edgewa.re/other-videos-guides-and-resources-multi-language-for-the-lockdrop/" caption="" %}
+[Lockdrop guides: videos and resources - (multi-language!)](https://blog.edgewa.re/other-videos-guides-and-resources-multi-language-for-the-lockdrop/)
 
 ### What will Commonwealth Lab's relation to Edgeware be after launch?
 
@@ -118,15 +118,15 @@ Validators are elected from a pool of the top 60 most-bonded validators. This el
 
 #### **When can I unbond my nominated tokens?**
 
-Bonding periods last 7 days. After 7 days you need to click on the lock icon or use the withdrawUnbonded\(num\_slashing\_spans\) staking function \[in Extrinsic submission option under Developer’s tab \] which will prompt you to sign a transaction to make those EDGs transferable.
+Bonding periods last 7 days. After 7 days you need to click on the lock icon or use the withdrawUnbonded\(num_slashing_spans\) staking function \[in Extrinsic submission option under Developer’s tab \] which will prompt you to sign a transaction to make those EDGs transferable.
 
 #### Why can't I send/sign my Nomination transaction?
 
-* Check that the Controller account has funds to pay transaction fees, this is the most common reason for issues. **If you get this error**: `staking.nominate`
+- Check that the Controller account has funds to pay transaction fees, this is the most common reason for issues. **If you get this error**: `staking.nominate`
 
   `submitAndWatchExtrinsic(extrinsic: Extrinsic): ExtrinsicStatus:: 1010: Invalid Transaction: Payment`
 
-* Check that your Destination field in the Polkadot UI is set to the network default - and not to Kusama or other networks.
+- Check that your Destination field in the Polkadot UI is set to the network default - and not to Kusama or other networks.
 
 #### Why is it recommended to use a different account for Stash and Controller?
 
@@ -171,4 +171,3 @@ Currently, you can't trade EDG on any swap protocols/portals like Uniswap. EDG i
 #### Recently I participated in democracy voting. How can I make those locked EDGs transferable after the locking period gets over?
 
 Go to the Extrinsics option under Developer tab in Polkadot Apps and by selecting ‘democracy’ under the extrinsic type, submit extrinsic unlock\(target\).
-

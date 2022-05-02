@@ -4,7 +4,7 @@ description: This page is under construction and heavily incomplete.
 
 # Public Grants
 
-### Introduction to Edgeware Public Grants <a href="introduction-to-edgeware-public-grants" id="introduction-to-edgeware-public-grants"></a>
+### Introduction to Edgeware Public Grants
 
 Edgeware has an on-chain public treasury composed of funds from several sources, including transaction fees, validator fees, and inflation. The public can vote and propose to utilize these funds through a democratic and open process. **Right now, grants are only available in EDG. In the future, you will be able to receive grants in stablecoins as well.**
 
@@ -14,7 +14,7 @@ In general, the process takes 9 days from proposal launch on-chain, but the draf
 Looking for smaller awards of EDG? Read about [Tips,](../edgeware-stack/economics/treasury/tipping-function.md) an easy way to request the public award a task or contribution to the network.
 :::
 
-### Oversight of Public Payments <a href="oversight-of-public-payments" id="oversight-of-public-payments"></a>
+### Oversight of Public Payments
 
 There are a few different ways that funds are allocated that improve the risk of these interactions for both the chain's community and for the recipient.
 
@@ -36,7 +36,7 @@ There are a few different ways that funds are allocated that improve the risk of
 - You may be asked to deliver a small amount of work upfront before receiving your first payment in order to build trust if the recipient lacks in-chain reputation.
 - This multi-proposal milestone approach ensures that the EDG you receive is priced comparative to USD so that you are not subject to price volatility, and have the amount per milestone that will actually enable your deliverable.
 
-## Step 1: Draft your proposal. <a href="step-1-draft-your-proposal" id="step-1-draft-your-proposal"></a>
+## Step 1: Draft your proposal
 
 1. See the proposal template and create a Google Doc so others can collaborate on your responses openly. (ADD Link to proposal Template)
 2. Post a thread to [Commonwealth.im/Edgeware](https://www.commonwealth.im/Edgeware) with a link to the Google Doc and a short intro. This is a great chance to make a good first impression if you haven't been very involved in the community.
@@ -45,7 +45,7 @@ There are a few different ways that funds are allocated that improve the risk of
 5. Once you've polished your proposal sufficiently, announce a final day for remarks. We usually let 2-4 weeks pass in discussion, 4 for larger or more feedbacked proposals.
 6. After the final call for feedback, you're ready to prep for the on-chain steps.
 
-## Optional: Creating a Multisig Escrow <a href="optional-creating-a-multisig-escrow" id="optional-creating-a-multisig-escrow"></a>
+## Optional: Creating a Multisig Escrow
 
 For proposals with requests greater than 10,000 USD, we recommend as a norm, that you use a multisig.
 
@@ -67,7 +67,7 @@ This helps make sure that the total amount is budgeted for, responsibly managed,
 
 ![User-uploaded Image](https://static.slab.com/prod/uploads/9yelyblh/posts/images/Z-3EsqRWHtkoRFFkX28REK3y.png)Add a caption
 
-## Step 2. Construct and submit the proposal. <a href="step-2-construct-and-submit-the-proposal" id="step-2-construct-and-submit-the-proposal"></a>
+## Step 2. Construct and submit the proposal.
 
 In Edgeware, treasury proposals have two stages:
 
@@ -76,7 +76,7 @@ In Edgeware, treasury proposals have two stages:
    1. Proposal Launch
    2. Referenda
 
-### Create the Treasury Proposal <a href="create-the-treasury-proposal" id="create-the-treasury-proposal"></a>
+### Create the Treasury Proposal
 
 \_\_
 
@@ -90,13 +90,13 @@ The bond exists to prevent people from abusing the proposal system and protects 
 
 These are important data about the extrinsic that\*\* \*\*you should record and save for technical use in other steps or troubleshooting. Feel free to enter this directly on your proposal text for safekeeping.
 
-### Create the Referenda <a href="create-the-referenda" id="create-the-referenda"></a>
+### Create the Referenda
 
 Enter the Treasury Proposal # from the previous step.
 
-## Go Live <a href="go-live" id="go-live"></a>
+## Go Live
 
-### Timeline (9 days total) <a href="timeline-9-days-total" id="timeline-9-days-total"></a>
+### Timeline (9 days total)
 
 1. **1 days** in Proposal
 2. **7 days** in Referenda (Voting)
@@ -110,7 +110,7 @@ Referenda Stage
 
 Disbursement Stage
 
-## Receiving the Funds <a href="receiving-the-funds" id="receiving-the-funds"></a>
+## Receiving the Funds
 
 **Grants Larger than 5000 USD**
 
@@ -120,9 +120,7 @@ You will be using a multisig with a minimum of 2-of-3 threshold. You will need t
 
 If the grant is lower than 5000 USD, you probably will receive the disbursement directly to the account shown in your proposal template. You may control and use these through traditional transaction methods. (Link to Docs, Sending a Transaction)
 
-### <a href="h-1" id="h-1"></a>
-
-### Managing and Using Funds <a href="managing-and-using-funds" id="managing-and-using-funds"></a>
+### Managing and Using Funds
 
 We recommend Polkadot.js application for managing your funds. This involves a MetaMask-like browser extension and an interface.
 

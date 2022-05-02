@@ -51,8 +51,8 @@ Follow the ACTIONs in the template code to emit a `Transfer` event every time a 
 
 Remember to run `cargo +nightly test` to test your work.
 
-{% tabs %}
-{% tab title="🔨Starting Point" %}
+<Tabs>
+<TabItem value="start" label="🔨Starting Point">
 
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
@@ -117,9 +117,8 @@ mod erc20 {
             // Update the sender's balance.
 ```
 
-{% endtab %}
-
-{% tab title="✅Potential Solution" %}
+</TabItem>
+<TabItem value="solution" label="✅Potential Solution">
 
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
@@ -240,5 +239,5 @@ mod erc20 {
 }
 ```
 
-{% endtab %}
-{% endtabs %}
+</TabItem>
+</Tabs>

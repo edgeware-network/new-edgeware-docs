@@ -8,9 +8,9 @@ The EDG tokens will be created upon Network Launch - currently scheduled for 10a
 
 ## Guides
 
-{% page-ref page="check-the-status-of-your-lock-duration-and-unlock-date.md" %}
+[Check the Status of Your Lock Duration and Unlock Date](edgeware-stack/lockdrop/check-the-status-of-your-lock-duration-and-unlock-date.md)
 
-{% page-ref page="retrieve-your-eth/" %}
+[Retrive your Locked ETH](edgeware-stack/lockdrop/retrieve-your-eth/README.md)
 
 ## Description
 

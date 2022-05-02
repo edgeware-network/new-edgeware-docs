@@ -40,50 +40,49 @@ module.exports = {
 };
 ```
 
-{% tabs %}
-{% tab title="Potential Error" %}
-:::danger
-Error: 'You need to install hardhat locally to use it.'
-:::
-{% endtab %}
+import Tabs from '@theme/Tabs';
 
-{% tab title="Solution" %}
-{% hint style="success" %}
+import TabItem from '@theme/TabItem';
+
+:::tip Use tabs in admonitions
+
+<Tabs>
+  <TabItem value="apple" label="Apple">This is an apple 🍎</TabItem>
+  <TabItem value="orange" label="Orange">This is an orange 🍊</TabItem>
+  <TabItem value="banana" label="Banana">This is a banana 🍌</TabItem>
+</Tabs>
+
+:::
+
+:::tip
+Error: 'You need to install hardhat locally to use it.'
+
 Run: **`npm install -save-dev "hardhat@^2.6.5"`** in your hardhat project's root directory
 :::
-{% endtab %}
-{% endtabs %}
 
 ### How to Write and Compile the Contract
 
 We will start by writing a simple contract and then we'll compile it.
-
-{% tabs %}
-{% tab title="terminal" %}
+:::note terminal
 
 ```javascript
- mkdir contracts && cd contracts && touch MyEdgNFT.sol
+mkdir contracts && cd contracts && touch MyEdgNFT.sol
 ```
 
-{% endtab %}
-{% endtabs %}
+:::
 
 We'll use the open-zeppelin package to write our NFT contract. So first, install the open-zeppelin package:
-
-{% tabs %}
-{% tab title="terminal" %}
+:::note terminal
 
 ```javascript
 npm install --save-dev @openzeppelin/contracts@3.4.0
 ```
 
-{% endtab %}
-{% endtabs %}
+:::
 
 Here is the contract code we will be compiling:
 
-{% tabs %}
-{% tab title="MyEdgNFT.sol" %}
+:::note MyEdgNFT.sol
 
 ```javascript
 pragma solidity ^0.7.3;
@@ -97,8 +96,7 @@ contract MyEdgNFT is ERC721 {
 }
 ```
 
-{% endtab %}
-{% endtabs %}
+:::
 
 The first thing you need to do in any solidity file is to declare the compiler version. Then we can import the ERC721 contract (NFT contract) from open-zeppelin just like you do in JavaScript.
 
@@ -144,8 +142,7 @@ require("@nomiclabs/hardhat-ethers");
 
 Here is a simple test:
 
-{% tabs %}
-{% tab title="test.js" %}
+:::note test.js
 
 ```javascript
 const { expect } = require("chai");
@@ -162,8 +159,7 @@ describe("MyEdgNFT", function () {
 });
 ```
 
-{% endtab %}
-{% endtabs %}
+:::
 
 This code deploys our contract to the local Hardhat network and then checks if the `name` and `symbol` values are what we expect.
 
@@ -179,9 +175,6 @@ Now here is the coolest thing you can do with Hardhat. You can use `console.log(
 
 Let’s go back to your solidity file and use `console.log()`.
 
-{% tabs %}
-{% tab title="" %}
-
 ```javascript
 pragma solidity ^0.7.3;
 
@@ -196,9 +189,6 @@ contract MyEdgNFT is ERC721 {
     }
 }
 ```
-
-{% endtab %}
-{% endtabs %}
 
 And run the test again with `npx hardhat test`. Then the command will compile the contract again, and then run the test. You should be able to see some values logged from the contract.
 
@@ -223,20 +213,17 @@ We'll give a walkthrough here on how to deploy to your local machine.
 
 Make a new directory called `scripts` in the root directory and `deploy.js` in it.
 
-{% tabs %}
-{% tab title="terminal" %}
+:::note Terminal
 
 ```javascript
 mkdir scripts && cd scripts && touch deploy.js
 ```
 
-{% endtab %}
-{% endtabs %}
+:::
 
 Here is the deploy script. You deploy along with constructor values:
 
-{% tabs %}
-{% tab title="deploy.js" %}
+:::note deploy.js
 
 ```javascript
 async function main() {
@@ -253,22 +240,19 @@ main()
   });
 ```
 
-{% endtab %}
-{% endtabs %}
+:::
 
 :::info
 You might want to remove `console.log()` before you deploy. And then run this deploy script with:
 :::
 
-{% tabs %}
-{% tab title="terminal" %}
+:::note terminal
 
 ```javascript
 npx hardhat run scripts/deploy.js
 ```
 
-{% endtab %}
-{% endtabs %}
+:::
 
 Boom! Now your NFT contract is deployed to the local network.
 
@@ -286,8 +270,7 @@ Next, we import the private key that we've retrieved from MetaMask and store it 
 
 The private.json file must contain a privateKey entry, for example:
 
-{% tabs %}
-{% tab title="private.json" %}
+:::note private.json
 
 ```typescript
 {
@@ -295,8 +278,7 @@ The private.json file must contain a privateKey entry, for example:
 }
 ```
 
-{% endtab %}
-{% endtabs %}
+:::
 
 Inside the `module.exports`, we need to provide the Solidity version (`0.8.1` according to our contract file), and the network details. Here, we are using test-net (Beresheet) network for the following example :
 
@@ -318,8 +300,7 @@ If you want to deploy on the Edgeware mainnet, you can use the following network
 
 The Hardhat configuration file should look like this:
 
-{% tabs %}
-{% tab title="hardhat.config.js" %}
+:::note hardhat.config.js
 
 ```typescript
 // ethers plugin required to interact with the contract
@@ -343,8 +324,7 @@ module.exports = {
 };
 ```
 
-{% endtab %}
-{% endtabs %}
+:::
 
 Great! We are now ready for deployment.
 

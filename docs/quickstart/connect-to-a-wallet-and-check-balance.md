@@ -24,14 +24,19 @@ You can also get the new version of your address in two other ways - the Polkado
 The Polkadot.js **Browser Extension** does not display the Edgeware network ID encoded at this time, **but the Polkadot UI does.**
 :::
 
-{% tabs %}
-{% tab title="Easy Mode: Subscan Tool" %}
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="start" label="Easy Mode: Subscan Tool">
+
 [Visit this Subscan Tool](https://edgeware.subscan.io/tools/ss58_transform) and enter your address or public key to generate a list of many network-encoded versions of your address. Save the one marked Edgeware.
 
 ![](/img/image14.png)
-{% endtab %}
 
-{% tab title="Using Polkadot UI" %}
+</TabItem>
+<TabItem value="solution" label="Using Polkadot UI">
+
 The easiest way to get your Edgeware network ID version of your public address is to use the Account or Address Book tool of [the Polkadot UI.](https://polkadot.js.org/apps/#/explorer)
 
 Enter your old address into the search bar in the Address Book tool, and then click the identicon to the left as shown in the image below. It will copy your current Edgeware network encoded address. Store this safely.
@@ -39,9 +44,10 @@ Enter your old address into the search bar in the Address Book tool, and then cl
 Alternatively, you can use the Accounts tab to do the same if you've connected via the Polkadot UI Browser Extension.
 
 ![](/img/screen-shot-2020-03-06-at-3.25.07-pm2.png)
-{% endtab %}
 
-{% tab title="Using Subkey CLI" %}
+</TabItem>
+<TabItem value="subkey" label="Using Subkey CLI">
+
 :::info
 This process requires the latest version of the Subkey program in order to select Edgeware as the network.
 :::
@@ -92,8 +98,8 @@ Secret phrase `submit hotel naive plate among decorate ghost speak exchange mimi
   SS58 Address:     hWyZ5UkvkrPpmiD3MJ7htdhEigxFe34pUH3Dy9Pq71QeZg4
 ```
 
-{% endtab %}
-{% endtabs %}
+</TabItem>
+</Tabs>
 
 :::info
 On Commonwealth.im, when Edgeware mainnet is enabled, the inputs will auto-derive the SS58 with the correct network ID, however, using the default-ID-ss58 outside of Commonwealth.im will likely result in errors that may endanger funds. To be safe, always use the Edgeware Network ID SS58 Address.
@@ -105,8 +111,8 @@ There are several ways to connect your existing account from the Lockdrop or oth
 
 First, install the [Polkadot.js Browser Extension](https://github.com/polkadot-js/extension):
 
-{% tabs %}
-{% tab title="Polkadot.js Extension" %}
+<Tabs>
+<TabItem value="extention" label="Polkadot.js Extension">
 
 - On Chrome, install via [Chrome web store](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd)
 - On Firefox, install via [Firefox add-ons](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension/)
@@ -125,12 +131,14 @@ Once connected, the extension will prompt you to authorize connecting your local
 You can now explore the chain and your account on Edgeware.
 
 ![](/img/screen-shot-2020-02-10-at-3.03.43-am2.png)
-{% endtab %}
 
-{% tab title="Commonwealth.im" %}
+</TabItem>
+<TabItem value="commonwealth" label="Commonwealth.im">
+
 Finally, enter in a name and password twice for your newly connected account. Once connected, you can visit [https://polkadot.js.org/apps/#/explorer](https://polkadot.js.org/apps/#/explorer), connect to the Edgeware testnet, and view your balance and interact with the chain.
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 ## Check your Balance via Block Explorer
 

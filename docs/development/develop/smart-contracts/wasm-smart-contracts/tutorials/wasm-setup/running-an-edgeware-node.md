@@ -17,9 +17,7 @@ docker-compose up
 
 You should start to see blocks being produced by your node in your terminal.
 
-You can interact with your node using the Polkadot UI:
-
-{% embed url="https://polkadot.js.org/apps/" caption="" %}
+You can interact with your node using the [Polkadot UI](https://polkadot.js.org/apps/)
 
 :::caution
 **Note:** You will need to use a Chromium based browser \(Google Chrome\) to have this site interact with your local node. The Polkadot UI is hosted on a secure server, and your local node is not, which may cause compatibility issues on Firefox. The other option is to [clone and run the Polkadot UI locally](https://github.com/polkadot-js/apps). \(The Brave Browser has also been causing compatibility issues\).

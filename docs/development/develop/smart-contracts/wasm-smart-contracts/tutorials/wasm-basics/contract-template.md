@@ -40,9 +40,12 @@ cargo +nightly contract build
 
 If everything looks good, then we are ready to start programming!
 
-{% tabs %}
-{% tab title="✅Potential Solution" %}
-{% code title="lib.rs" %}
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="solution" label="✅Potential Solution">
+
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
 
@@ -78,7 +81,6 @@ mod incrementer {
     }
 }
 ```
-{% endcode %}
-{% endtab %}
-{% endtabs %}
 
+</TabItem>
+</Tabs>

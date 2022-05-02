@@ -20,10 +20,13 @@ The objectives of this election mechanism are to maximize the security of the ne
 Nominating a Validator means that you delegate your EDG to be used for their validation purposes, and exposes you to the risk that the Validator may 'misbehave' according to the network, resulting in theirs AND your nominated EDG 'slashed,' or taken by the system as a disincentive to misbehave. Nominate responsibly.
 :::
 
-{% tabs %}
-{% tab title="Using the Polkadot.js UI (Polkadot Apps)" %}
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-#### Step 1: Bond your tokens <a href="step-1-bond-your-tokens" id="step-1-bond-your-tokens"></a>
+<Tabs>
+<TabItem value="start" label="Using the Polkadot.js UI (Polkadot Apps)">
+
+#### Step 1: Bond your tokens
 
 **Prerequisites:**
 
@@ -83,12 +86,14 @@ Is your Nominate or Send button greyed out or not visible? Incase your are using
 ![Nominated](https://raw.githubusercontent.com/Edgeware-Network/edgeware-documentation/master/docs/edgeware-runtime/staking/assets/images/nominating_4.jpg)
 
 Select them, confirm the transaction, and you're done - you are now nominating. Your stash will start generating staking rewards within an era (6 hours). You will notice your balance increasing whenever a validator or any nominator corresponding to it claims a payout (on behalf of every corresponding nominators).
-{% endtab %}
 
-{% tab title="using Subkey to Sign Transactions Securely" %}
+</TabItem>
+<TabItem value="subkey" label="using Subkey to Sign Transactions Securely">
+
 Coming soon.
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>
 
 ## Stop Being a Nominator (unbond)
 

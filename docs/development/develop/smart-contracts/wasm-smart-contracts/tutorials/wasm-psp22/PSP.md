@@ -30,6 +30,3 @@ PSP22 will have a double impact:
 
 It also helps to have a predefined interface for specific token standards to ensure exhaustive logic is implemented.
 It will also encourage to share the most performant & secure implementation.
-
-{% endtab %}
-{% endtabs %}
