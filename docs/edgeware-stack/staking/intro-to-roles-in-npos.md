@@ -22,7 +22,7 @@ They also must stake their EDG, Edgeware’s native token, as a guarantee of goo
 **Parameter Note:** Edgeware initially allows 60 Validator slots, but this number can change through governance actions.
 :::
 
-{% page-ref page="slashing-consequences.md" %}
+[Slashing Consequences](edgeware-stack/staking/slashing-consequences.md)
 
 ### Nominators
 

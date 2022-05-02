@@ -2,9 +2,9 @@
 
 In this part we will add functionality to our Ballot so that:
 
-* People can vote on proposals
-* People can delegate their votes
-* The chairperson can assign voting rights
+- People can vote on proposals
+- People can delegate their votes
+- The chairperson can assign voting rights
 
 ### Contract Functionality <a id="contract-functionality"></a>
 
@@ -15,7 +15,7 @@ Let's first update the constructor of our contract. As you can see in the code s
 ```rust
     if proposal_name.is_some() {
         names = proposal_name.unwrap()
-        // do somethiing with names 
+        // do somethiing with names
 
     }
 ```
@@ -120,19 +120,23 @@ You will see that in the delegation function above, we update the `sender.voted`
 
 This wraps up the tutorial. Practice what you learned with the following exercises:
 
-* Update the `constructor` function so that if a vector of proposal names is provided, a new proposal object is created and added to `ballot.proposal`.
-* Define the `give_voting_right` function as instructed.
-* Add `vote` functionality and update the ballot according to the template requirements.
-* Update `get_winning_proposal_name` functionality to return the name of the winning proposal.
+- Update the `constructor` function so that if a vector of proposal names is provided, a new proposal object is created and added to `ballot.proposal`.
+- Define the `give_voting_right` function as instructed.
+- Add `vote` functionality and update the ballot according to the template requirements.
+- Update `get_winning_proposal_name` functionality to return the name of the winning proposal.
 
-{% tabs %}
-{% tab title="🔨Starting Point" %}
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="start" label="🔨Starting Point">
+
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
 
 use ink_lang as ink;
 
-#[ink::contract]    
+#[ink::contract]
 mod ballot {
     // use Hash
     use ink_storage::collections::HashMap;
@@ -143,7 +147,7 @@ mod ballot {
     #[derive(Clone, Debug, scale::Encode, scale::Decode, SpreadLayout, PackedLayout,scale_info::TypeInfo)]
     struct Proposal {
         name: String,
-        vote_count: u32, 
+        vote_count: u32,
     }
 
     // Structure to store Proposal information
@@ -151,8 +155,8 @@ mod ballot {
     pub struct Voter {
         weight: u32,
         voted: bool,
-        delegate: Option<AccountId>, 
-        vote: Option<i32>, 
+        delegate: Option<AccountId>,
+        vote: Option<i32>,
     }
 
     /// Defines the storage of your contract.
@@ -162,7 +166,7 @@ mod ballot {
     pub struct Ballot {
         chair_person: AccountId,
         voters: HashMap<AccountId, Voter>,
-        proposals: Vec<Proposal>    
+        proposals: Vec<Proposal>
     }
 
     impl Ballot {
@@ -263,15 +267,16 @@ mod ballot {
     }
 }
 ```
-{% endtab %}
 
-{% tab title="✅Potential Solution" %}
+</TabItem>
+<TabItem value="solution" label="✅Potential Solution">
+
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
 
 use ink_lang as ink;
 
-#[ink::contract]    
+#[ink::contract]
 mod ballot {
     // use Hash
     use ink_storage::collections::HashMap;
@@ -282,7 +287,7 @@ mod ballot {
     #[derive(Clone, Debug, scale::Encode, scale::Decode, SpreadLayout, PackedLayout,scale_info::TypeInfo)]
     struct Proposal {
         name: String,
-        vote_count: u32, 
+        vote_count: u32,
     }
 
     // Structure to store Proposal information
@@ -290,8 +295,8 @@ mod ballot {
     pub struct Voter {
         weight: u32,
         voted: bool,
-        delegate: Option<AccountId>, 
-        vote: Option<i32>, 
+        delegate: Option<AccountId>,
+        vote: Option<i32>,
     }
 
     /// Defines the storage of your contract.
@@ -301,7 +306,7 @@ mod ballot {
     pub struct Ballot {
         chair_person: AccountId,
         voters: HashMap<AccountId, Voter>,
-        proposals: Vec<Proposal>    
+        proposals: Vec<Proposal>
     }
 
     impl Ballot {
@@ -423,6 +428,6 @@ mod ballot {
     }
 }
 ```
-{% endtab %}
-{% endtabs %}
 
+</TabItem>
+</Tabs>

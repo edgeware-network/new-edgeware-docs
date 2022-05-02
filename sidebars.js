@@ -542,12 +542,12 @@ module.exports = {
           items: [
             {
               type: 'category',
-              label: 'Retrieve you Locked ETH',
+              label: 'Retrieve your Locked ETH',
               collapsible: true,
               collapsed: true,
               link: {
                 type: 'doc',
-                id: 'edgeware-stack/lockdrop/README',
+                id: 'edgeware-stack/lockdrop/retrieve-your-eth/README',
               },
               items: [
                 {

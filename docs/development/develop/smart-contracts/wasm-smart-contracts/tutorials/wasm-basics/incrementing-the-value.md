@@ -61,8 +61,12 @@ Follow the `ACTION`s in the template code.
 
 Remember to run `cargo +nightly test` to test your work.
 
-{% tabs %}
-{% tab title="🔨Starting Point" %}
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="start" label="🔨Starting Point">
+
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
 
@@ -109,9 +113,10 @@ mod incrementer {
         #[test]
         fn default_works() {
 ```
-{% endtab %}
 
-{% tab title="✅Potential Solution" %}
+</TabItem>
+<TabItem value="solution" label="✅Potential Solution">
+
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
 
@@ -158,6 +163,6 @@ mod incrementer {
         #[test]
         fn default_works() {
 ```
-{% endtab %}
-{% endtabs %}
 
+</TabItem>
+</Tabs>

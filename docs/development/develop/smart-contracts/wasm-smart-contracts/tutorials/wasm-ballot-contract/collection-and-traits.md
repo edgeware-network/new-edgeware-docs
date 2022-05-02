@@ -36,11 +36,11 @@ Remember that the `vector.get` returns an `Option` not the actual object!
 
 A trait tells the Rust compiler about the functionality a particular type has, and can be shared with other types. You can read more about them [here](https://doc.rust-lang.org/book/ch10-02-traits.html). Before using the custom built structures inside the `Ballot` storage, certain traits are required to be implemented for `Voter` and `Proposal` structs. These traits include:
 
-* `Debug`: Allows debug formatting in format strings
-* `Clone` : This trait allows you to create a deep copy of object
-* `Copy` : The copy traits allows you to copy a value of a field
-* `PackedLayout`: Types that can be stored to and loaded from a single contract storage cell
-* `SpreadLayout`: Types that can be stored to and loaded from the contract storage.
+- `Debug`: Allows debug formatting in format strings
+- `Clone` : This trait allows you to create a deep copy of object
+- `Copy` : The copy traits allows you to copy a value of a field
+- `PackedLayout`: Types that can be stored to and loaded from a single contract storage cell
+- `SpreadLayout`: Types that can be stored to and loaded from the contract storage.
 
 You can learn more about these traits over [here](https://doc.rust-lang.org/book/appendix-03-derivable-traits.html) and [here](https://paritytech.github.io/ink/ink_storage/traits/index.html). These traits are implemented using the `derive` attribute:
 
@@ -56,22 +56,23 @@ You can learn more about these traits over [here](https://doc.rust-lang.org/book
 
 You need to:
 
-* Create a proposal Vec and voters HashMap in Ballot struct.
-* Update the constructor, so that it initializes a Vec of proposals and a HashMap of voters. Also update the voters HashMap to include the chair person as a voter.
-* Create getters for both storage items.
-* Write `add_voter` function to create a voter by the given `AccountId` and insert it in the HashMap of voters.
-* Write `add_proposal` function that creates a `Proposal` object and inserts it tot he vector of proposals.
+- Create a proposal Vec and voters HashMap in Ballot struct.
+- Update the constructor, so that it initializes a Vec of proposals and a HashMap of voters. Also update the voters HashMap to include the chair person as a voter.
+- Create getters for both storage items.
+- Write `add_voter` function to create a voter by the given `AccountId` and insert it in the HashMap of voters.
+- Write `add_proposal` function that creates a `Proposal` object and inserts it tot he vector of proposals.
 
 Remember to run `cargo +nightly test` to test your work.
 
-{% tabs %}
-{% tab title="🔨Starting Point" %}
+<Tabs>
+<TabItem value="start" label="🔨Starting Point">
+
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
 
 use ink_lang as ink;
 
-#[ink::contract]    
+#[ink::contract]
 mod ballot {
     use ink_storage::collections::HashMap;
     use ink_prelude::vec::Vec;
@@ -81,7 +82,7 @@ mod ballot {
     #[derive(Clone, Debug, scale::Encode, scale::Decode, SpreadLayout, PackedLayout,scale_info::TypeInfo)]
     struct Proposal {
         name: String,
-        vote_count: u32, 
+        vote_count: u32,
     }
 
     // Structure to store Proposal information
@@ -89,8 +90,8 @@ mod ballot {
     pub struct Voter {
         weight: u32,
         voted: bool,
-        delegate: Option<AccountId>, 
-        vote: Option<i32>, 
+        delegate: Option<AccountId>,
+        vote: Option<i32>,
     }
 
     /// Defines the storage of your contract.
@@ -100,10 +101,10 @@ mod ballot {
     pub struct Ballot {
         chair_person: AccountId,
         //  ACTION: create a voters hash map with account id as key and Voter as value
-        voters: 
+        voters:
 
         //  ACTION: create a proposals vector
-        proposals: 
+        proposals:
     }
 
     impl Ballot {
@@ -113,7 +114,7 @@ mod ballot {
             let chair_person =  Self::env().caller();
 
             //  ACTION: create empty proposals and voters variables
-            //          * let proposals = 
+            //          * let proposals =
             //          * let mut voters =
 
             // ACTION: add chair persons voter object in voters hash map
@@ -146,8 +147,8 @@ mod ballot {
         /// the contract owner must approve the voter before he can cast a vote
         #[ink(message)]
         pub fn add_voter(&mut self, voter_id: AccountId) -> bool{
-            // ACTION: check if voter already exits, if yes return false       
-            //      * if not exists, create an entry in hash map 
+            // ACTION: check if voter already exits, if yes return false
+            //      * if not exists, create an entry in hash map
             //      * with default weight set to 0 and voted to false
             //      * and return true
 
@@ -167,10 +168,6 @@ mod ballot {
         /// adds the given proposal name in ballet
         pub fn add_proposal(&mut self, proposal_name: String){
         }
-
-
-
-
     }
 
     /// Unit tests in Rust are normally defined within such a `#[cfg(test)]`
@@ -187,7 +184,7 @@ mod ballot {
         #[ink::test]
         fn new_works() {
             let mut proposal_names: Vec<String> = Vec::new();
-            proposal_names.push(String::from("Proposal # 1"));  
+            proposal_names.push(String::from("Proposal # 1"));
             let ballot = Ballot::new();
             assert_eq!(ballot.get_voter_count(),1);
         }
@@ -209,15 +206,19 @@ mod ballot {
     }
 }
 ```
-{% endtab %}
 
-{% tab title="✅Potential Solution" %}
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+</TabItem>
+<TabItem value="solution" label="✅Potential Solution">
+
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
 
 use ink_lang as ink;
 
-#[ink::contract]    
+#[ink::contract]
 mod ballot {
     // use Hash
     use ink_storage::collections::HashMap;
@@ -228,7 +229,7 @@ mod ballot {
     #[derive(Clone, Debug, scale::Encode, scale::Decode, SpreadLayout, PackedLayout,scale_info::TypeInfo)]
     struct Proposal {
         name: String,
-        vote_count: u32, 
+        vote_count: u32,
     }
 
     // Structure to store Proposal information
@@ -236,8 +237,8 @@ mod ballot {
     pub struct Voter {
         weight: u32,
         voted: bool,
-        delegate: Option<AccountId>, 
-        vote: Option<i32>, 
+        delegate: Option<AccountId>,
+        vote: Option<i32>,
     }
 
     /// Defines the storage of your contract.
@@ -247,7 +248,7 @@ mod ballot {
     pub struct Ballot {
         chair_person: AccountId,
         voters: HashMap<AccountId, Voter>,
-        proposals: Vec<Proposal>    
+        proposals: Vec<Proposal>
     }
 
     impl Ballot {
@@ -351,7 +352,7 @@ mod ballot {
         #[ink::test]
         fn new_works() {
             let mut proposal_names: Vec<String> = Vec::new();
-            proposal_names.push(String::from("Proposal # 1"));  
+            proposal_names.push(String::from("Proposal # 1"));
             let ballot = Ballot::new();
             assert_eq!(ballot.get_voter_count(),1);
         }
@@ -359,6 +360,6 @@ mod ballot {
 
 }
 ```
-{% endtab %}
-{% endtabs %}
 
+</TabItem>
+</Tabs>

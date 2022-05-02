@@ -1,7 +1,10 @@
 # Send EDG to another Account
 
-{% tabs %}
-{% tab title="Using Polkadot.js" %}
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="start" label="Using Polkadot.js">
 This method involves using the [Polkadot UI ](https://polkadot.js.org/apps/#/explorer)and the Polkadot.js browser extension.
 
 You will need:
@@ -33,9 +36,11 @@ Once you hit sign and submit, your Polkadot.js browser extension will open a pop
 ![](</img/screen-shot-2020-02-10-at-9.48.50-am2.png)
 
 Once you sign the transaction, the network receives it and you are done. You can explore the transaction details through a block explorer.
-{% endtab %}
 
-{% tab title="Using Commonwealth.im" %}
+</TabItem>
+<TabItem value="commonwealth" label="Using Commonwealth.im">
+
 Coming soon.
-{% endtab %}
-{% endtabs %}
+
+</TabItem>
+</Tabs>

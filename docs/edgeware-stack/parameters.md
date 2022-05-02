@@ -65,7 +65,7 @@ It may be out of date on this page, refer to the link above for most up to date 
     pub const DAYS: BlockNumber = HOURS * 24;
 ```
 
-{% embed url="https://github.com/hicommonwealth/edgeware-node/blob/master/node/runtime/src/constants.rs" %}
+https://github.com/hicommonwealth/edgeware-node/blob/master/node/runtime/src/constants.rs
 
 ## Staking
 

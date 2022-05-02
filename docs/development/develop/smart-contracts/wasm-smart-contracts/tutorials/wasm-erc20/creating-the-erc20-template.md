@@ -14,8 +14,8 @@ You will notice that the template for the ERC20 token is VERY similar to the Inc
 
 The storage \(so far\) consists of:
 
-* A storage `Value`: representing the total supply of tokens in our contract.
-* A storage `HashMap`: representing the individual balance of each account.
+- A storage `Value`: representing the total supply of tokens in our contract.
+- A storage `HashMap`: representing the individual balance of each account.
 
 ## ERC20 Deployment <a id="erc20-deployment"></a>
 
@@ -31,14 +31,18 @@ This chapter should be nothing more than a quick refresher of the content you al
 
 You need to:
 
-* Set up a constructor function which initializes the two storage items
-* Create getters for both storage items
-* Create a `balance_of_or_zero` function to handle reading values from the HashMap
+- Set up a constructor function which initializes the two storage items
+- Create getters for both storage items
+- Create a `balance_of_or_zero` function to handle reading values from the HashMap
 
 Remember to run `cargo +nightly test` to test your work.
 
-{% tabs %}
-{% tab title="🔨Starting Point" %}
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="start" label="🔨Starting Point">
+
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
 
@@ -101,9 +105,10 @@ mod erc20 {
     }
 }
 ```
-{% endtab %}
 
-{% tab title="✅Potential Solution" %}
+</TabItem>
+<TabItem value="solution" label="✅Potential Solution">
+
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
 
@@ -168,6 +173,6 @@ mod erc20 {
     }
 }
 ```
-{% endtab %}
-{% endtabs %}
 
+</TabItem>
+</Tabs>

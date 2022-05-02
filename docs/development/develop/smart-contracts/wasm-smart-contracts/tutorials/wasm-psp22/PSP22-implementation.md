@@ -40,7 +40,7 @@ std = [
    "scale-info",
    "scale-info/std",
 
-   # These dependencies   
+   # These dependencies
    "psp22/std",
    "brush/std",
 ]
@@ -153,6 +153,3 @@ impl MyPSP22 {
    }
 }
 ```
-
-{% endtab %}
-{% endtabs %}

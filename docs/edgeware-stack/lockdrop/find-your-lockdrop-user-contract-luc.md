@@ -6,8 +6,12 @@ description: This is a short guide to finding your lockdrop user contract addres
 
 There are two ways to discover your LUC address if you haven't stored it:
 
-{% tabs %}
-{% tab title="Block Explorer" %}
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="explorer" label="Block Explorer">
+
 Visit a block explorer like [Etherscan.io](http://etherscan.io) or others.
 
 Enter your participating ETH address and view the list of transactions to find one or more that show the destination of "Edgeware Lockdrop Contract" It may also say "Old" - this is still a valid lock.
@@ -22,9 +26,10 @@ Click the transaction ID of these to see the final destination of the funds - th
 ![See this example using Etherscan.io](/img/screen-shot-2020-02-12-at-4.00.06-pm.png)
 
 Click into your LUC addresses to check the LUC for balance and contract data.
-{% endtab %}
 
-{% tab title="Lockdrop Stats Tool" %}
+</TabItem>
+<TabItem value="tool" label="Lockdrop Stats Tool">
+
 Visit the lockdrop stats page on Commonwealth.im:\
 [https://commonwealth.im/edgeware/stats](https://commonwealth.im/edgeware/stats)
 
@@ -37,9 +42,10 @@ This will show you:
 - All instances of your LUCs generated from that address
 - Their unlock times
 - And ETH locked per LUC.
-  {% endtab %}
-  {% endtabs %}
 
-{% content-ref url="retrieve-your-eth/" %}
-[retrieve-your-eth](retrieve-your-eth/)
-{% endcontent-ref %}
+</TabItem>
+</Tabs>
+
+:::info
+[Retrive your Locked ETH](edgeware-stack/lockdrop/retrieve-your-eth/README.md)
+:::

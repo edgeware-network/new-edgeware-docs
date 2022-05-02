@@ -57,8 +57,12 @@ Follow the `ACTION`s to finish your Incrementer smart contract.
 
 Remember to run `cargo +nightly test` to test your work.
 
-{% tabs %}
-{% tab title="🔨Starting Point" %}
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="start" label="🔨Starting Point">
+
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
 
@@ -120,9 +124,10 @@ mod incrementer {
     mod tests {
         use super::*;
 ```
-{% endtab %}
 
-{% tab title="✅Potential Solution" %}
+</TabItem>
+<TabItem value="solution" label="✅Potential Solution">
+
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
 
@@ -184,6 +189,6 @@ mod incrementer {
     mod tests {
         use super::*;
 ```
-{% endtab %}
-{% endtabs %}
 
+</TabItem>
+</Tabs>

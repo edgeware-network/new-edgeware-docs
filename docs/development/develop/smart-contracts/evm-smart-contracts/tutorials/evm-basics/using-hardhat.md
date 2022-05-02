@@ -1,8 +1,8 @@
 # Using Hardhat
 
-:::danger
+<!-- :::danger
 **This page is still under development. Many functionalities of this page are still being worked on until further notice. To help our efforts, add a pull request with revised changes, thank you.**
-:::
+::: -->
 
 ![](https://user-images.githubusercontent.com/32852637/118346510-0437d380-b50a-11eb-9fc2-267d0b20777b.png)
 
@@ -28,8 +28,7 @@ To follow this tutorial you should be able to:
 
 We need to install Node.js and npm package manager. You can download directly from Node.js or in your terminal.
 
-{% tabs %}
-{% tab title="Mac OS" %}
+:::note Mac OS
 
 ```text
 # You can use homebrew (https://docs.brew.sh/Installation)
@@ -39,11 +38,9 @@ brew install node`
 nvm install node
 ```
 
-{% endtab %}
-{% endtabs %}
+:::
 
-{% tabs %}
-{% tab title="Linux" %}
+:::note Linux
 
 ```text
 curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
@@ -51,8 +48,7 @@ curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 
-{% endtab %}
-{% endtabs %}
+:::
 
 You can verify that everything is installed correctly by querying the version for each package:
 

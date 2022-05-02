@@ -10,7 +10,7 @@ The `transfer` function does exactly what you might expect: it allows the user c
 
 You will notice in our template code there is a public function `transfer` and an internal function `transfer_from_to`. We have done this because in the future, we will be reusing the logic for a token transfer when we enable third party allowances and spending on-behalf-of.
 
-### transfer\_from\_to\(\) <a id="transfer_from_to"></a>
+### transfer_from_to\(\) <a id="transfer_from_to"></a>
 
 ```rust
 fn transfer_from_to(&mut self, from: AccountId, to: AccountId, value: Balance) -> bool {/* --snip-- */}
@@ -31,7 +31,7 @@ Remember that the `transfer` function and other public functions return a bool t
 ### transfer\(\) <a id="transfer"></a>
 
 ```rust
-#[ink(message)] 
+#[ink(message)]
 pub fn transfer(&mut self, to: AccountId, value: Balance) -> bool {/* --snip-- */}
 ```
 
@@ -51,8 +51,12 @@ Follow the `ACTION`s in the template code to build your transfer function.
 
 Remember to run `cargo +nightly test` to test your work.
 
-{% tabs %}
-{% tab title="🔨Starting Point" %}
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="start" label="🔨Starting Point">
+
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
 
@@ -114,9 +118,10 @@ mod erc20 {
     mod tests {
         use super::*;
 ```
-{% endtab %}
 
-{% tab title="✅Potential Solution" %}
+</TabItem>
+<TabItem value="solution" label="✅Potential Solution">
+
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
 
@@ -181,6 +186,6 @@ mod erc20 {
     }
 }
 ```
-{% endtab %}
-{% endtabs %}
 
+</TabItem>
+</Tabs>

@@ -2,12 +2,6 @@
 
 There are two ways to check on your lock duration. The easiest way is through the Commonwealth Unlock or Lockdrop Stats tool, the other way requires that you look at the lock-initiating transaction on a block explorer.
 
-{% tabs %}
-{% tab title="undefined" %}
-
-{% endtab %}
-{% endtabs %}
-
 Visit either
 
 - [Commonwealth's Lockdrop Stats Tool](https://commonwealth.im/edgeware/stats)
@@ -38,9 +32,7 @@ If that number is ..
 
 Add the month value to the transaction date to find your unlock date and see if that date has passed yet. If so, your LUC is ready to release your ETH.
 
-{% content-ref url="retrieve-your-eth/" %}
-[retrieve-your-eth](retrieve-your-eth/)
-{% endcontent-ref %}
+[Retrieve your Locked ETH](edgeware-stack/lockdrop/retrieve-your-eth/README.md)
 
 ### Example
 

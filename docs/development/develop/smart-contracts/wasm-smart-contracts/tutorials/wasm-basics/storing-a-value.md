@@ -175,8 +175,12 @@ Follow the `ACTION`s in the template code to introduce a storage map to your con
 
 Remember to run `cargo +nightly test` to test your work.
 
-{% tabs %}
-{% tab title="🔨Starting Point" %}
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="start" label="🔨Starting Point">
+
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
 
@@ -258,11 +262,14 @@ mod incrementer {
             assert_eq!(contract.get_mine(), 0);
         }
     }
-}
-```
-{% endtab %}
 
-{% tab title="✅Potential Solution" %}
+}
+
+```
+
+</TabItem>
+<TabItem value="solution" label="✅Potential Solution">
+
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
 
@@ -345,6 +352,6 @@ mod incrementer {
     }
 }
 ```
-{% endtab %}
-{% endtabs %}
 
+</TabItem>
+</Tabs>

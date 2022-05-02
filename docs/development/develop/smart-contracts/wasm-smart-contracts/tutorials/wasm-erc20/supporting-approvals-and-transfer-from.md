@@ -38,7 +38,7 @@ Here we have defined the tuple to represent `(owner, spender)` such that we can 
 ```rust
 /// Approve the passed AccountId to spend the specified amount of tokens
 /// on the behalf of the message's sender.
-#[ink(message)] 
+#[ink(message)]
 pub fn approve(&mut self, spender: AccountId, value: Balance) -> bool {/* --snip-- */}
 ```
 
@@ -84,8 +84,12 @@ Follow the `ACTION`s in the contract template to finish your ERC20 implementatio
 
 Remember to run `cargo +nightly test` to test your work.
 
-{% tabs %}
-{% tab title="🔨Starting Point" %}
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="start" label="🔨Starting Point">
+
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
 
@@ -204,9 +208,10 @@ mod erc20 {
 
             // Update the receiver's balance.
 ```
-{% endtab %}
 
-{% tab title="✅Potential Solution" %}
+</TabItem>
+<TabItem value="solution" label="✅Potential Solution">
+
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]
 
@@ -325,6 +330,6 @@ mod erc20 {
     }
 }
 ```
-{% endtab %}
-{% endtabs %}
 
+</TabItem>
+</Tabs>
