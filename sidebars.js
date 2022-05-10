@@ -59,6 +59,7 @@ module.exports = {
         items: [
           'development/develop/install-edgeware',
           'development/develop/docker-image',
+          'development/develop/rosetta-api',
           {
             type: 'category',
             label: 'Smart Contracts',
@@ -721,6 +722,7 @@ module.exports = {
       collapsed: false,
       items: [
         'community/public-grants',
+        'community/current-projects',
       ],
     },
   ],

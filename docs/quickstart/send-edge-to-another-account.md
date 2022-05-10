@@ -33,7 +33,7 @@ Advanced: You can also pre-sign but _not_ submit this transaction to the network
 
 Once you hit sign and submit, your Polkadot.js browser extension will open a popup for your account password for the 'send from' account, and you will sign the transaction from your wallet.
 
-![](</img/screen-shot-2020-02-10-at-9.48.50-am2.png)
+![](/img/screen-shot-2020-02-10-at-9.48.50-am2.png)
 
 Once you sign the transaction, the network receives it and you are done. You can explore the transaction details through a block explorer.
 
