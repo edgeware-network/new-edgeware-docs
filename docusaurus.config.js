@@ -48,21 +48,32 @@ module.exports = {
         logo: {
           alt: 'My Site Logo',
           src: 'img/edgeware-main-logomark.svg',
+          href: 'https://edgewa.re/',
         },
         items: [
           {
             type: 'doc',
             docId: 'welcome/welcome',
             position: 'left',
-            label: 'Docs',
+            label: 'Home',
+          },
+          {
+            to: 'https://commonwealth.im/edgeware',
+            label: 'Forum',
+            position: 'left',
+          },
+          {
+            to: 'https://discord.gg/wFbystdrHC',
+            label: 'Discord',
+            position: 'left',
           },
           {
             type: "search",
-            position: "right",
+            position: 'right',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/edgeware-network/new-edgeware-docs',
+            to: 'https://github.com/edgeware-network/new-edgeware-docs',
             label: 'GitHub',
             position: 'right',
           },
