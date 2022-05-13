@@ -723,6 +723,7 @@ module.exports = {
       items: [
         'community/public-grants',
         'community/current-projects',
+        'community/contributing',
       ],
     },
   ],
