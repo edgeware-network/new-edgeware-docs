@@ -726,5 +726,14 @@ module.exports = {
         'community/contributing',
       ],
     },
+    {
+      type: 'category',
+      label: 'Projects',
+      collapsible: true,
+      collapsed: false,
+      items: [
+        'projects/hummingbot-integration',
+      ],
+    },
   ],
 };
