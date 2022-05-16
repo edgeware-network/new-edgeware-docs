@@ -723,6 +723,16 @@ module.exports = {
       items: [
         'community/public-grants',
         'community/current-projects',
+        'community/contributing',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Projects',
+      collapsible: true,
+      collapsed: false,
+      items: [
+        'projects/hummingbot-integration',
       ],
     },
   ],
