@@ -18,7 +18,7 @@ Edgeware has [deployed Full EVM compatibility layer](https://github.com/hicommon
 
 ## Low Transactions Fees
 
-Due to different and better architecture than Ethereum, [Edgeware has low transaction fees.](https://github.com/hicommonwealth/edgeware-documentation/blob/master/docs/edgeware-runtime/economics/transaction-fees.md)
+Due to a different and better architecture compared to Ethereum, [Edgeware has low transaction fees.](https://github.com/hicommonwealth/edgeware-documentation/blob/master/docs/edgeware-runtime/economics/transaction-fees.md)
 
 ## Ethereum EVM bridge
 

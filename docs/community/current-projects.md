@@ -1,4 +1,4 @@
-## Current Projects
+# Current Projects
 
 Edgeware is a DAO with a flat hierarchy and a large set of independent contributors. In an effort to align awareness of our work with one another, we host weekly synchronous calls in our Discord http://edgeware.chat (notes in in #Activity-sync)
 
