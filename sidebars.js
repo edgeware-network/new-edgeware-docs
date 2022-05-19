@@ -724,6 +724,15 @@ module.exports = {
         'community/public-grants',
         'community/current-projects',
         'community/contributing',
+        {
+          type: 'category',
+          label: 'Meetings',
+          collapsible: true,
+          collapsed: true,
+          items: [
+            'community/meetings/design-and-mission/may-18-2022',
+          ],
+        },
       ],
     },
     {
