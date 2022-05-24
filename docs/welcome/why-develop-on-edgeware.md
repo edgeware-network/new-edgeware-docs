@@ -22,7 +22,7 @@ Due to a different and better architecture compared to Ethereum, [Edgeware has l
 
 ## Ethereum EVM bridge
 
-On-going efforts to migrate dApps from Ethereum network to Edgeware and have same dApp experience like on Ethereum. [You can deploy your dApp on Edgeware today](https://main.edgeware.wiki/edgeware-runtime/evm).
+On-going efforts to migrate dApps from Ethereum network to Edgeware and have same dApp experience like on Ethereum. [You can deploy your dApp on Edgeware today](../development\develop\smart-contracts\evm-smart-contracts\README.md).
 
 ## Large and Active Community
 
