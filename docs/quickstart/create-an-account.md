@@ -4,9 +4,9 @@ An address is the public part of an Edgeware account. The private part is the ke
 
 There are several ways to generate a Edgeware account:
 
-- [Polkadot{.js} Browser Plugin](create-an-account.md#polkadotjs-browser-plugin) - _We recommend this for most users_
+- [Polkadot{.js} Browser Plugin](create-an-account.md#Polkadot{.js}-Browser-Plugin) - _We recommend this for most users_
 - [Subkey](create-an-account.md#subkey) - _Advanced and Most secure_
-- [Edgeui-Flax.Vercel.app](create-an-account.md#edgeui-flaxvercelapp)
+- [Edgeui-Flax.Vercel.app](create-an-account.md#Edgeui-Flax)
 - Parity Signer
 - Ledger Hardware Wallet
 

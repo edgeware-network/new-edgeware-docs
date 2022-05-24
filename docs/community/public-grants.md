@@ -40,7 +40,7 @@ There are a few different ways that funds are allocated that improve the risk of
 
 1. See the proposal template and create a Google Doc so others can collaborate on your responses openly. (ADD Link to proposal Template)
 2. Post a thread to [Commonwealth.im/Edgeware](https://www.commonwealth.im/Edgeware) with a link to the Google Doc and a short intro. This is a great chance to make a good first impression if you haven't been very involved in the community.
-3. Attend the working group calls, and the bi-weekly all-community call to introduce your project, receive feedback and answer questions. We recommend attending at least one of these, and especially the All-Community Call, [see the Google Calendar for Edgeware Events.](public-grants.md#introduction-to-edgeware-public-grants)
+3. Attend the working group calls, and the bi-weekly all-community call to introduce your project, receive feedback and answer questions. We recommend attending at least one of these, and especially the All-Community Call, [see the Google Calendar for Edgeware Events.](https://calendar.google.com/calendar/u/0/r?cid=Y29tbW9ud2VhbHRoLmltX2loYnM4OTJwcXVidm9ndG9pbTZjMWhmN2NrQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
 4. Take good notes of others feedback, and likely, integrate some ofthat feedback in the review of your draft. You may benefit from several rounds of this, which, while it can be tedious, go a long ways to satisfying the community.
 5. Once you've polished your proposal sufficiently, announce a final day for remarks. We usually let 2-4 weeks pass in discussion, 4 for larger or more feedbacked proposals.
 6. After the final call for feedback, you're ready to prep for the on-chain steps.

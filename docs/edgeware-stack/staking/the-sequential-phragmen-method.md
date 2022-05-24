@@ -28,9 +28,10 @@ You can use the [offline-phragmen](https://github.com/kianenigma/offline-phragme
 
 ## External Resources
 
-* [W3F Research Page on Sequential Phragmen Method](https://research.web3.foundation/en/latest/polkadot/NPoS/4.%20Sequential%20Phragm%C3%A9n%E2%80%99s%20method/) - The formal adaptation of the Phragmen method as applied to Polkadot validators.
+* [Phragmms](https://arxiv.org/pdf/2004.12990.pdf) -W3F research paper that expands on the sequential Phragmén method.
+* [W3F Research Page on NPoS](https://research.web3.foundation/en/latest/polkadot/NPoS/1.%20Overview.html) -An overview of Nominated Proof of Stake as its applied to Polkadot.
 * [Python Reference Implementations](https://github.com/w3f/consensus/tree/master/NPoS) - Implementations of Simple and Complicated Phragmen methods.
-* [Substrate Implementation](https://github.com/paritytech/substrate/blob/master/core/phragmen/src/lib.rs) - Rust implementation used in the Substrate Runtime Module Library.
+* [Substrate Implementation](https://github.com/paritytech/substrate/blob/master/frame/staking/src/lib.rs) - Rust implementation used in the Substrate Runtime Module Library.
 * [Phragmen's and Thiele's Election Methods](https://arxiv.org/pdf/1611.08826.pdf) - 95-page paper explaining Phragmen's election methods in detail.
+* [Phragmén’s Voting Methods and Justified Representation](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14757/13791) - This paper by Brill et al. is the source for the simple Phragmén method, along with proofs about its properties.
 * [Offline Phragmen](https://github.com/kianenigma/offline-phragmen) - Script to generate the Phragmen validator election outcome before the start of an era.
-

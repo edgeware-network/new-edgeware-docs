@@ -160,9 +160,9 @@ Every project is unique in its own perspective. You may find some similarities i
 
 We would recommend going through the following resources to know more about Edgeware:
 
-• [Roadmap](https://blog.edgewa.re/edgeware-2020/)
+• [Roadmap](https://blog.edgewa.re/edgeware-2022-community-roadmap/)
 
-• [Edgeware Docs](https://docs.edgeware.wiki/)
+• [Edgeware Docs](../../welcome\welcome.md#upgrade-schedule)
 
 #### Can I trade EDG on decentralised protocols like Uniswap or any DEXs?
 

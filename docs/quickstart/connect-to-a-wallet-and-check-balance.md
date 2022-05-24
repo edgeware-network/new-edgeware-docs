@@ -144,7 +144,7 @@ Finally, enter in a name and password twice for your newly connected account. On
 
 At this time, the two main block explorers are
 
-- [Edgscan](https://beresheet.edgscan.com/)
+- [Polkascan](https://polkascan.io/pre/edgeware-berlin)
 - [Subscan](https://edgeware.subscan.io)
 
 Both of these explorers will only work with Public Addresses (SS58) that have the Edgeware network ID encoded.
