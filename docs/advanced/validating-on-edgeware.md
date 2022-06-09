@@ -1,6 +1,6 @@
 # Validating on Edgeware
 
-Welcome to the official, in-depth Edgeware guide to validating. We're happy that you're interested in validating on Edgeware and we'll do our best to provide in-depth documentation on the process below. As always, reach out on [Discord](https://discord.gg/CJRfb3) or [Telegram](https://t.me/heyedgeware) if you have questions about the project.
+Welcome to the official, in-depth Edgeware guide to validating. We're happy that you're interested in validating on Edgeware and we'll do our best to provide in-depth documentation on the process below. As always, reach out on [Discord](https://discord.gg/rQG8Vn5NcG) or [Telegram](https://t.me/heyedgeware) if you have questions about the project.
 
 This document contains all the information one should need to start validating on Edgeware using the [**polkadot-js/apps user interface**](https://polkadot.js.org/apps/#/). We will start with how to setup one's node and proceed to how to key management and monitoring. To start, we will use the following terminology of keys for the guide:
 
@@ -14,7 +14,7 @@ This document contains all the information one should need to start validating o
 2. Instructions for setting up a node are [here](https://github.com/hicommonwealth/edgeware-node/wiki/Setting-up-a-Node). You will need to additionally add the `--validator` flag to run a validator node.
 3. You should have a wallet, such as the `polkadot-js` extension, installed in your browser with the stash and controller keypairs. If you don't have it, get it [here](https://github.com/polkadot-js/extension).
 
-If you need to request a testnet EDG balance, just ask on [Discord](https://github.com/Edgeware-Network/edgeware-documentation/tree/815a72388a9df65c3db9f048eaed42ea8f645780/docs/advanced-topics/1/README.md).
+If you need to request a testnet EDG balance, just ask on [Discord](https://discord.gg/rQG8Vn5NcG).
 
 ### 1. Install the Edgeware node
 

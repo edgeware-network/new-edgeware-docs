@@ -370,12 +370,12 @@ module.exports = {
             {
               type: 'link',
               label: 'Setting up an Edgeware node for local development', // The link label
-              href: 'https://docs.edgeware.wiki/development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/setting-up-a-edgeware-evm-node', // The external URL
+              href: 'https://www.edgeware.wiki/development/develop/smart-contracts/setting-up-an-edgeware-node-for-local-development', // The external URL
             },
             {
               type: 'link',
               label: 'Running an Edgeware Node', // The link label
-              href: 'https://docs.edgeware.wiki/development/develop/smart-contracts/wasm-smart-contracts/tutorials/deploy-a-wasm-contract/running-an-edgeware-node', // The external URL
+              href: 'https://www.edgeware.wiki/development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-setup/running-an-edgeware-node', // The external URL
             },
             'edgeware-stack/node/docker',
           ],
@@ -724,15 +724,6 @@ module.exports = {
         'community/public-grants',
         'community/current-projects',
         'community/contributing',
-        {
-          type: 'category',
-          label: 'Meetings',
-          collapsible: true,
-          collapsed: true,
-          items: [
-            'community/meetings/design-and-mission/may-18-2022',
-          ],
-        },
       ],
     },
     {

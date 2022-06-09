@@ -40,5 +40,5 @@ Edgeware Key Generator [https://edgewa.re/keygen](https://edgewa.re/keygen)
 
 Youtube [https://www.youtube.com/playlist?list=PLJK4WO5y\_eJFMGZGDmNOWRZI2dAV4GyU6](https://www.youtube.com/playlist?list=PLJK4WO5y_eJFMGZGDmNOWRZI2dAV4GyU6)
 
-Docs [https://main.edgeware.wiki/development/develop/smart-contracts/evm-smart-contracts/tutorials](https://main.edgeware.wiki/development/develop/smart-contracts/evm-smart-contracts/tutorials)
+Docs [https://main.edgeware.wiki/development/develop/smart-contracts/evm-smart-contracts/tutorials](../../../smart-contracts\evm-smart-contracts\tutorials\evm-basics\README.md#introduction)
 

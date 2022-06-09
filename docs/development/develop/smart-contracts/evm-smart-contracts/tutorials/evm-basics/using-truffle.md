@@ -6,7 +6,7 @@
 
 This guide walks through the process of deploying a Solidity-based smart contract to a Edgeware node using [Truffle](https://www.trufflesuite.com/docs). Truffle is one of the commonly used development tools for smart contracts on Ethereum. Given Edgeware's Ethereum compatibility features, Truffle can be used directly with a Edgeware node.
 
-This guide assumes that you have a [running local Edgeware EVM node running in `--dev` mode.](https://main.edgeware.wiki/development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/setting-up-a-edgeware-evm-node).
+This guide assumes that you have a [running local Edgeware EVM node running in `--dev` mode.](..\evm-basics\setting-up-a-edgeware-evm-node.md).
 
 ### Environment Prerequisites <a id="environment-prerequisites"></a>
 
@@ -103,5 +103,5 @@ As you may see, we are using our `development` network from `truffle-config.js`.
 
 ### Reach us for more engagement <a id="reach-us-for-more-engagement"></a>
 
-Glad you've made it through! 🥰 We are eager to guide your more on your exploration through Edgeware Ethereum combability feature. We are **keen to hear your experience and suggestions you may have for us.**. You can feel free to [chat with us in the Edgeware's channels like Discord, Element and Telegram](https://linktr.ee/edg_developers), we can help you out with issues you may have or project you may want to be funded through our <A HREF = "https://docs.edgeware.wiki/edgeware-stack/economics/treasury">Treasury program</A>. Don't hesitate to share your feedback on our channels, there is always space to improve! 🙌
+Glad you've made it through! 🥰 We are eager to guide your more on your exploration through Edgeware Ethereum combability feature. We are **keen to hear your experience and suggestions you may have for us.**. You can feel free to [chat with us in the Edgeware's channels like Discord, Element and Telegram](https://linktr.ee/edg_developers), we can help you out with issues you may have or project you may want to be funded through our [Treasury program](../../../../../../edgeware-stack\economics\treasury\README.md#treasury). Don't hesitate to share your feedback on our channels, there is always space to improve! 🙌
 

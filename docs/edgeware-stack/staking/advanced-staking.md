@@ -16,9 +16,9 @@ The staking system pays out rewards equally to all validators. Distribution of t
 
 #### 1. Identifying which role you are
 
-In staking, you can be either a [nominator or a validator](https://wiki.polkadot.network/docs/en/learn-staking#validators-and-nominators).
+In staking, you can be either a [nominator or a validator](https://wiki.polkadot.network/docs/learn-staking#validators-and-nominators).
 
-As a nominator, you can nominate one or more (up to 16) validator candidates that you trust to help you earn rewards in EDG. You can take a look at the [nominator guide](https://wiki.polkadot.network/docs/en/maintain-nominator) to understand what you are required to do when the mainnet launches.
+As a nominator, you can nominate one or more (up to 16) validator candidates that you trust to help you earn rewards in EDG. You can take a look at the [nominator guide](https://wiki.polkadot.network/docs/maintain-guides-how-to-nominate-polkadot) to understand what you are required to do when the mainnet launches.
 
 A validator node is required to be responsive 24/7, perform its expected duties in a timely manner, and avoid any slashable behavior.
 

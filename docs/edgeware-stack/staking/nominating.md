@@ -73,7 +73,7 @@ Choose whatever payment destination sounds good to you. If you're unsure choose 
 
 #### Step 2: Nominate a validator
 
-You are now bonded. Being bonded means your tokens are locked and **could be** [**slashed**](https://wiki.polkadot.network/docs/en/learn-staking#slashing) **if the validators you nominate misbehave**. All bonded funds can now be distributed to up to 16 validators. Be careful about the validators you choose since you will be slashed if your validator commits an offense.
+You are now bonded. Being bonded means your tokens are locked and **could be** [**slashed**](https://wiki.polkadot.network/docs/maintain-guides-validator-payout#slashing) **if the validators you nominate misbehave**. All bonded funds can now be distributed to up to 16 validators. Be careful about the validators you choose since you will be slashed if your validator commits an offense.
 
 In the "Account actions" sub-tab you will find "Nominate" option corresponding to your stash(the account you've bonded) and upon clicking you will be presented with another popup asking you to select the intended validators, alternatively you can enter the validating address(es) of the validator(s) you wish to nominate.
 
