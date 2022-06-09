@@ -26,7 +26,7 @@ For any additional questions or information, refer to our `builders-general` cha
 
 [set up a full node](../../quickstart/set-up-a-full-node.md)
 
-[setting up a edgeware evm node](../../development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-basics/setting-up-a-edgeware-evm-node.md)
+[setting up a edgeware evm node](../../development/develop/smart-contracts/setting-up-an-edgeware-node-for-local-development.md)
 
 [running an edgeware node](../../development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-setup/running-an-edgeware-node.md)
 ∂
