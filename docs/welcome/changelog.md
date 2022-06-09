@@ -6,6 +6,6 @@ description: Recorded changes to Edgeware's documentation
 
 :::info June 9, 2022
 
-Development node updated
+Edgeware local development node updated
 
 :::
