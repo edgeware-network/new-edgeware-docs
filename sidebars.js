@@ -260,7 +260,6 @@ module.exports = {
                           id: 'development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-basics/README',
                         },
                         items: [
-                          'development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-basics/setting-up-a-edgeware-evm-node',
                           'development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-basics/using-metamask',
                           'development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-basics/using-truffle',
                           'development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-basics/using-web3.js',
@@ -369,8 +368,8 @@ module.exports = {
             },
             {
               type: 'link',
-              label: 'Setting up an Edgeware node for local development', // The link label
-              href: 'https://docs.edgeware.wiki/development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/setting-up-a-edgeware-evm-node', // The external URL
+              label: 'Setting up a local development node', // The link label
+              href: 'https://edgeware.wiki/development/develop/smart-contracts/setting-up-an-edgeware-node-for-local-development', // The external URL
             },
             {
               type: 'link',
