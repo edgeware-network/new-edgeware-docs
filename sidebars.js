@@ -364,19 +364,19 @@ module.exports = {
             {
               type: 'link',
               label: 'Set Up a Full Node', // The link label
-              href: 'https://docs.edgeware.wiki/quickstart/set-up-a-full-node', // The external URL
+              href: '/quickstart/set-up-a-full-node', // local URL
             },
             {
               type: 'link',
               label: 'Setting up a local development node', // The link label
-              href: 'https://edgeware.wiki/development/develop/smart-contracts/setting-up-an-edgeware-node-for-local-development', // The external URL
+              href: '/development/develop/smart-contracts/setting-up-an-edgeware-node-for-local-development', // local URL
             },
             {
               type: 'link',
               label: 'Running an Edgeware Node', // The link label
-              href: 'https://docs.edgeware.wiki/development/develop/smart-contracts/wasm-smart-contracts/tutorials/deploy-a-wasm-contract/running-an-edgeware-node', // The external URL
+              href: '/development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-setup/running-an-edgeware-node', // local URL
             },
-            'edgeware-stack/node/docker',
+            // 'edgeware-stack/node/docker', (removed because the page is a blank document)
           ],
         },
         {
