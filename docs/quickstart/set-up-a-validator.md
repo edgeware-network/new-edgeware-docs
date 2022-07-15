@@ -104,6 +104,8 @@ Setting a commission rate of 100% suggests that you do not want your validator t
 
 You can also determine if you would like to receive nominations with the "allows new nominations" option.
 
+![](/img/polkadot-dashboard-validate-2.png)
+
 Click "Bond & Validate".
 
 If you go to the "Staking" tab, you will see a list of active validators currently running on the network. At the top of the page, it shows the number of validator slots that are available as well as the number of nodes that have signaled their intention to be a validator. You can go to the "Waiting" tab to double check to see whether your node is listed there.
