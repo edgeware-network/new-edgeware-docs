@@ -14,11 +14,11 @@ Edgeware stakeholders will be able to collaborate on the roadmap of the network 
 
 ## Governance [Parameters](https://github.com/hicommonwealth/edgeware-documentation/blob/master/docs/edgeware-runtime/parameters.md) at Launch
 
-* **Launch period:** 7 days
+* **Launch period:** 2 days
 * **Voting period:** 7 days
 * **Fast-track voting period:** 3 days
 * **Veto:** None
-* **Enactment delay:** 8 days
+* **Enactment delay:** 1 days
 * **Cancellation:** 2/3 of council
 * **Cooloff period after cancellation**: 7 days
 
