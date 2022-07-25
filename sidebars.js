@@ -120,6 +120,8 @@ module.exports = {
                           'development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-setup/setup-environment',
                           'development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-setup/creating-an-ink-project',
                           'development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-setup/building-your-contract',
+
+                          'development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-setup/upgrade-to-erup-5',
                           'development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-setup/running-an-edgeware-node',
                           'development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-setup/deploying-your-contract',
                           'development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-setup/calling-your-contract',
@@ -376,6 +378,13 @@ module.exports = {
               label: 'Running an Edgeware Node', // The link label
               href: '/development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-setup/running-an-edgeware-node', // local URL
             },
+
+            {
+              type: 'link',
+              label: 'Upgrade your node to ERUP-5', // The link label
+              href: '/development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-setup/upgrade-to-erup-5', // local URL
+            },
+
             // 'edgeware-stack/node/docker', (removed because the page is a blank document)
           ],
         },
