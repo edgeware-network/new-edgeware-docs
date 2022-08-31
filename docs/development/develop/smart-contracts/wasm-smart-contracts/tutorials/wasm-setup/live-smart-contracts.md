@@ -10,7 +10,7 @@ Edgeware has magical functionality, that you will **upload your contract once** 
 
 We have deployed few contracts for you to the [Beresheet - our testnet network \(open Apps\)](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fberesheet1.edgewa.re#/contracts) to make it easy play for you. You will just need download particular metadata \(ABI\) for particular contract so your browser understands it.
 
-- 📚 <A HREF = "https://docs.edgeware.wiki/development/develop/smart-contracts/wasm-smart-contracts/tutorials/deploy-a-wasm-contract/building-your-contract#contract-metadata">You can find metadata here</A>
+- 📚 [You can find metadata here](building-your-contract.md)
 - ⛽️ [Faucet](https://beresheet-faucet.vercel.app/)
 - ⛽️ [If faucet doesn't work, visit us at Telegram](https://t.me/edg_developers)
 
