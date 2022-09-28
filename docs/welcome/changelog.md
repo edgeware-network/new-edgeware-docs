@@ -21,3 +21,5 @@ Credit Filip
 [Edgeware local development node updated](https://www.edgeware.wiki/development/develop/smart-contracts/setting-up-an-edgeware-node-for-local-development)
 Credit Depth Hoar
 :::
+
+Added Legal Disclaimer under the welcome section - Zovern (Sept 27 2022)
