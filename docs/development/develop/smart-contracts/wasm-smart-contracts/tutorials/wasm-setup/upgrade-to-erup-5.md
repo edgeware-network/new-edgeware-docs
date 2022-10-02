@@ -11,7 +11,7 @@ Release v4.0.0 is the latest release from Edgeware, this release upgrades Edgewa
 ##### Build from source:
 
 ```bash
-$ git clone https://github.com/edgeware-network/edgeware-node & cd edgeware-node/ & git checkout "v4.0.0" & cargo build --release  
+$ git clone https://github.com/edgeware-network/edgeware-node && cd edgeware-node/ && git checkout "v4.0.0" && cargo build --release  
 ```
 
 
