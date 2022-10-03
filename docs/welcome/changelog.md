@@ -4,6 +4,11 @@ description: Recorded changes to Edgeware's documentation
 
 # Changelog
 
+:::info Sept 27 2022
+
+[Added Legal Disclaimer under the welcome section](https://www.edgeware.wiki/welcome/legal-disclaimer) Credit Zovern & Depth Hoar
+:::
+
 :::info Sep 20, 2022
 
 [Correlate Runtime Version to Release Version](https://www.edgeware.wiki/#correlate-runtime-version-to-release-version)
@@ -21,5 +26,3 @@ Credit Filip
 [Edgeware local development node updated](https://www.edgeware.wiki/development/develop/smart-contracts/setting-up-an-edgeware-node-for-local-development)
 Credit Depth Hoar
 :::
-
-Added Legal Disclaimer under the welcome section - Zovern (Sept 27 2022)

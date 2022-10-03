@@ -24,6 +24,7 @@ module.exports = {
         'welcome/why-develop-on-edgeware',
         'welcome/roadmap',
         'welcome/changelog',
+        'welcome/legal-disclaimer',
       ],
     },
     {
