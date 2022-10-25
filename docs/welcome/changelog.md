@@ -6,6 +6,12 @@ description: Recorded changes to Edgeware's documentation
 
 :::info Oct 4, 2022
 
+[Set Up a Validator](https://www.edgeware.wiki/quickstart/set-up-a-validator)
+Credit Depth Hoar & JelliedOwl
+:::
+
+:::info Oct 4, 2022
+
 [Upgrade your Edgeware Node to v4.0.0](https://www.edgeware.wiki/development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-setup/upgrade-to-erup-5)
 Credit Filip
 :::
