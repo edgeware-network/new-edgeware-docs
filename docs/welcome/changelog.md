@@ -4,7 +4,7 @@ description: Recorded changes to Edgeware's documentation
 
 # Changelog
 
-:::info Oct 4, 2022
+:::info Oct 26, 2022
 
 [Set Up a Validator](https://www.edgeware.wiki/quickstart/set-up-a-validator)
 Credit Depth Hoar & JelliedOwl
