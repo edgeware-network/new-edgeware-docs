@@ -47,7 +47,7 @@ source /root/.cargo/env
 export PATH=/root/.cargo/bin:$PATH
 
 # Get packages
-git clone https://github.com/hicommonwealth/edgeware-node.git
+git clone https://github.com/edgeware-network/edgeware-node.git
 cd edgeware-node
 
 # Build packages
@@ -242,4 +242,4 @@ In general, you should use these URLs to connect to your node:
 
 Your node will automatically restart when the system reboots, but it may not be able to recover from other failures. To handle those, consider following our guide to [Setting up monitoring](../advanced/setting-up-monitoring.md).
 
-You may also wish to proceed to [Validating on Edgeware](set-up-a-validator.md). 
+You may also wish to proceed to [Validating on Edgeware](set-up-a-validator.md).
