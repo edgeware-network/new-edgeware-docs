@@ -1,6 +1,6 @@
 ---
 id: welcome
-title: welcome
+title: Welcome
 slug: /
 sidebar_position: 1
 ---
@@ -18,7 +18,11 @@ Welcome to the official documentation for the Edgeware network! This documentati
 
 ### Upgrade Schedule
 
-**ERUP-4** is in final testing and has been deployed to the Beresheet testnet, including upgrading the Edgeware network to Substrate 3,adding orml-tokens + orml-nft pallets, node type upgrades, and fixes for the Frontier EVM compatibility layer and . [Read more.](https://commonwealth.im/edgeware/proposal/discussion/1100-erup-4-substrate-30-evm-updates-runtime-modules?comment=3387)
+**ERUP-4** is in final testing and has been deployed to the Beresheet testnet, including upgrading the Edgeware network to Substrate 3,adding orml-tokens + orml-nft pallets, node type upgrades, and fixes for the Frontier EVM compatibility layer and . [Read more.](https://commonwealth.im/edgeware/proposal/discussion/1100-erup-4-substrate-30-evm-updates-runtime-modules?comment=3387)      
+#### Correlate Runtime Version to Release Version   
+To get the exact version that is running on Edgeware's Mainnet.  You can visit [Edgeware.app/#/chainstate](https://www.edgeware.app/#/chainstate) and query `system.lastRuntimeUpgrade` for the spec_version number. Navigate then over to [edgeware-node/releases on github](https://github.com/edgeware-network/edgeware-node/releases/) and verify the spec_version in the node/runtime/src/lib.rs file.
+
+
 
 ## What is Edgeware?
 
