@@ -8,7 +8,6 @@ sidebar_position: 1
 # Welcome
 
 Welcome to the official documentation for the Edgeware network! This documentation is designed to educate those looking to build within Edgeware, and expand upon the technology that Edgeware utilizes.
-`
 
 - **Announcements and News** [are published in The Cutting EDG](https://blog.edgewa.re/)
 
