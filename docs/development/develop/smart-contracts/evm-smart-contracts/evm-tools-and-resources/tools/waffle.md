@@ -16,13 +16,13 @@ To configure Waffle to run tests against a Edgeware development node or the Edge
 
 :::note javascript
 
-describe ('Test Contract', () => { // Use custom provider to connect to Beresheet or Edgeware development node const BeresheetProvider = new ethers.providers.JsonRpcProvider(('[https://beresheet2.edgewa.re/evm](https://beresheet2.edgewa.re/evm)')(Alternatively, one can use [https://beresheetX.edgewa.re/evm](https://beresheetx.edgewa.re/evm) where X can be any number from 1 to 8.);
+describe ('Test Contract', () => { // Use custom provider to connect to Beresheet or Edgeware development node const BeresheetProvider = new ethers.providers.JsonRpcProvider(('[https://beresheet-evm.jelliedowl.net](https://beresheet-evm.jelliedowl.net)')
 
 const devProvider = new ethers.providers.JsonRpcProvider('[http://localhost:9933/](http://localhost:9933)'); })
 :::
 
 :::note Typescript
-describe ('Test Contract', () => { // Use custom provider to connect to Beresheet or Edgeware development node const BeresheetProvider: Provider = new ethers.providers.JsonRpcProvider(('[https://beresheet2.edgewa.re/evm](https://beresheet2.edgewa.re/evm)')(Alternatively, one can use [https://beresheetX.edgewa.re/evm](https://beresheetx.edgewa.re/evm) where X can be any number from 1 to 8.);
+describe ('Test Contract', () => { // Use custom provider to connect to Beresheet or Edgeware development node const BeresheetProvider: Provider = new ethers.providers.JsonRpcProvider(('[https://beresheet-evm.jelliedowl.net](https://beresheet-evm.jelliedowl.net)')
 
 const devProvider: Provider = new ethers.providers.JsonRpcProvider('[http://localhost:9933/](http://localhost:9933)'); })
 :::

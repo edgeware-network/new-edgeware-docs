@@ -40,7 +40,7 @@ Different methods are available inside `provider` and `wallet`. Depending on whi
 
 **Beresheet testnet:**
 
-- RPC_URL: [`https://beresheet2.edgewa.re/evm`](https://beresheet2.edgewa.re/evm)`(Alternatively, one can use `[`https://beresheetX.edgewa.re/evm`](https://beresheetx.edgewa.re/evm)` where X can be any number from 1 to 8.)`
+- RPC_URL: [`https://beresheet-evm.jelliedowl.net`](https://beresheet-evm.jelliedowl.net)
 - ChainId: `2022`
 - NETWORK_NAME: `Beresheet`
 

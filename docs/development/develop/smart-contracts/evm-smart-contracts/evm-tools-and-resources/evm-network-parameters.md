@@ -12,21 +12,21 @@ On Beresheet gas limit is set to 225m, we recommend running the deploy to mainne
 
 ### Beresheet testnet
 
-* Network name: Beresheet
-* RPC URL: [https://beresheet2.edgewa.re/evm](https://beresheet2.edgewa.re/evm) \(Alternatively, one can use [https://beresheetX.edgewa.re/evm](https://beresheetX.edgewa.re/evm) where X can be any number from 1 to 8.\)
-* Chain ID: 2022
+- Network name: Beresheet
+- RPC URL: [https://beresheet-evm.jelliedowl.net](https://beresheet-evm.jelliedowl.net)
+- Chain ID: 2022
 
 ### Local Edgeware development node
 
-* Network name: dev
-* RPC URL: [http://localhost:9933/](http://localhost:9933/)
-* Chain ID: 2021
+- Network name: dev
+- RPC URL: [http://localhost:9933/](http://localhost:9933/)
+- Chain ID: 2021
 
 ### Edgeware mainnet
 
-* Network name: Edgeware
-* RPC URL: [https://mainnet2.edgewa.re/evm](https://mainnet2.edgewa.re/evm) \(Alternatively, one can use [https://mainnetX.edgewa.re/evm](https://mainnetX.edgewa.re/evm) where X can be any number from 1 to 20.\)
-* Chain ID: 2021
+- Network name: Edgeware
+- RPC URL: [https://mainnet2.edgewa.re/evm](https://mainnet2.edgewa.re/evm) \(Alternatively, one can use [https://mainnetX.edgewa.re/evm](https://mainnetX.edgewa.re/evm) where X can be any number from 1 to 20.\)
+- Chain ID: 2021
 
 ### EDG EVM Tools
 
@@ -38,7 +38,6 @@ Edgeware Key Generator [https://edgewa.re/keygen](https://edgewa.re/keygen)
 
 ### EDG EVM Tutorials
 
-Youtube [https://www.youtube.com/playlist?list=PLJK4WO5y\_eJFMGZGDmNOWRZI2dAV4GyU6](https://www.youtube.com/playlist?list=PLJK4WO5y_eJFMGZGDmNOWRZI2dAV4GyU6)
+Youtube [https://www.youtube.com/playlist?list=PLJK4WO5y_eJFMGZGDmNOWRZI2dAV4GyU6](https://www.youtube.com/playlist?list=PLJK4WO5y_eJFMGZGDmNOWRZI2dAV4GyU6)
 
 Docs [https://main.edgeware.wiki/development/develop/smart-contracts/evm-smart-contracts/tutorials](https://main.edgeware.wiki/development/develop/smart-contracts/evm-smart-contracts/tutorials)
-

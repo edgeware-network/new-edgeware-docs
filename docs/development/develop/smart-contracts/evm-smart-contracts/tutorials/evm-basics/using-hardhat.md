@@ -167,7 +167,7 @@ The private.json file must contain a privateKey entry, for example:
 Inside the `module.exports`, we need to provide the Solidity version \(`0.8.1` according to our contract file\), and the network details. Here, we are using testnet\(Beresheet\) network for the following example :
 
 - Network name: Beresheet
-- RPC URL: [https://beresheet2.edgewa.re/evm](https://beresheet2.edgewa.re/evm) \(Alternatively, one can use [https://beresheetX.edgewa.re/evm](https://beresheetX.edgewa.re/evm) where X can be any number from 1 to 8.\)
+- RPC URL: [https://beresheet-evm.jelliedowl.net](https://beresheet-evm.jelliedowl.net)
 - Chain ID: 2022
 
 If you want to deploy to a local Edgeware development node, you can use the following network details:
@@ -198,7 +198,7 @@ module.exports = {
   networks: {
     // Beresheet network specification
     Beresheet: {
-      url: `https://beresheet2.edgewa.re/evm`,
+      url: `https://beresheet-evm.jelliedowl.net`,
       chainId: 2022,
       accounts: [privateKey],
     },
