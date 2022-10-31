@@ -17,11 +17,11 @@ Welcome to the official documentation for the Edgeware network! This documentati
 
 ### Upgrade Schedule
 
-**ERUP-4** is in final testing and has been deployed to the Beresheet testnet, including upgrading the Edgeware network to Substrate 3,adding orml-tokens + orml-nft pallets, node type upgrades, and fixes for the Frontier EVM compatibility layer and . [Read more.](https://commonwealth.im/edgeware/proposal/discussion/1100-erup-4-substrate-30-evm-updates-runtime-modules?comment=3387)      
-#### Correlate Runtime Version to Release Version   
-To get the exact version that is running on Edgeware's Mainnet.  You can visit [Edgeware.app/#/chainstate](https://www.edgeware.app/#/chainstate) and query `system.lastRuntimeUpgrade` for the spec_version number. Navigate then over to [edgeware-node/releases on github](https://github.com/edgeware-network/edgeware-node/releases/) and verify the spec_version in the node/runtime/src/lib.rs file.
+**ERUP-4** is in final testing and has been deployed to the Beresheet testnet, including upgrading the Edgeware network to Substrate 3,adding orml-tokens + orml-nft pallets, node type upgrades, and fixes for the Frontier EVM compatibility layer and . [Read more.](https://commonwealth.im/edgeware/proposal/discussion/1100-erup-4-substrate-30-evm-updates-runtime-modules?comment=3387)
 
+#### Correlate Runtime Version to Release Version
 
+To get the exact version that is running on Edgeware's Mainnet. You can visit [Edgeware.app/#/chainstate](https://www.edgeware.app/#/chainstate) and query `system.lastRuntimeUpgrade` for the spec_version number. Navigate then over to [edgeware-node/releases on github](https://github.com/edgeware-network/edgeware-node/releases/) and verify the spec_version in the node/runtime/src/lib.rs file.
 
 ## What is Edgeware?
 
@@ -49,12 +49,12 @@ Edgeware is built on Parity Substrate, a framework for creating new blockchains 
 
 Edgware is most plainly an actively-governed smart contract blockchain. Emphasis on active. Anyone can _actively…_
 
-… participate in the lock drop. By locking ETH, you get EDG tokens which give you staking and voting rights on the new chain.
+- participate in the lock drop. By locking ETH, you get EDG tokens which give you staking and voting rights on the new chain.
 
-… deploy smart contracts to either a WASM or EVM virtual machine.
+- deploy smart contracts to either a WASM or EVM virtual machine.
 
-… participate in council and governance decisions. With stakeholders like core devs, dapp devs, end users, chain governance, and broader community stakeholders being represented by separate councils.
+- participate in council and governance decisions. With stakeholders like core devs, dapp devs, end users, chain governance, and broader community stakeholders being represented by separate councils.
 
-… develop the protocol using skills or interest that you may have. And for those efforts, be compensated with additional EDG token — representing future staking and voting rights.
+- develop the protocol using skills or interest that you may have. And for those efforts, be compensated with additional EDG token — representing future staking and voting rights.
 
 **This site,** Edgeware Documentation, aims to become a community-developed resource for the use, validation, development on, and management of the Edgeware smart contract platform.
