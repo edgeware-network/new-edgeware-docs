@@ -90,6 +90,10 @@ You should see the node connecting to the network and syncing the latest blocks.
 journalctl -u edgeware.service -f
 ```
 
+:::tip
+If the release build fails to compile edgeware-cli, it is likely your machine ran out of memory. A way around this is to use Linux swap memory. This will allow the use of hard drive memory when all RAM is exhausted. Some performance is lost, but it will not crash during the build. It is suggested to add 8G. [Here is a link to helpful commands.](https://www.howtogeek.com/455981/how-to-create-a-swap-file-on-linux/)
+:::
+
 ## 2. Configuring an SSL certificate (public nodes only)
 
 We will use Certbot to talk to Let's Encrypt. Install Certbot dependencies:
