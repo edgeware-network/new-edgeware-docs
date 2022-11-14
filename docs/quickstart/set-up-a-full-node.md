@@ -90,6 +90,40 @@ You should see the node connecting to the network and syncing the latest blocks.
 journalctl -u edgeware.service -f
 ```
 
+import Tabs from '@theme/Tabs';
+
+import TabItem from '@theme/TabItem';
+
+:::tip Consider using Linux Swap Memory
+
+<Tabs>
+  <TabItem value="Why" label="Why">
+    If the release build fails to compile edgeware-cli, it is likely your machine ran out of memory. A way around this is to use Linux swap memory. This will allow the use of hard drive memory when all RAM is exhausted. Some performance is lost, but it will not crash during the build. It is suggested to add 2GB.
+  </TabItem>
+  <TabItem value="Commands" label="Commands">
+
+```
+#disables swap if you already have it enabled
+sudo swapoff -a
+
+#resizes the swap to 2GB
+sudo dd if=/dev/zero of=/swapfile bs=1M count=2048
+
+#fix swap permissions
+sudo mkswap /swapfile
+
+#enables the swap
+sudo swapon /swapfile
+
+#checks the swap size (optional)
+grep SwapTotal /proc/meminfo
+```
+
+  </TabItem>
+</Tabs>
+
+:::
+
 ## 2. Configuring an SSL certificate (public nodes only)
 
 We will use Certbot to talk to Let's Encrypt. Install Certbot dependencies:
