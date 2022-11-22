@@ -4,6 +4,12 @@ description: Recorded changes to Edgeware's documentation
 
 # Changelog
 
+:::info Nov 14, 2022
+
+[Linux Swap Memory](https://www.edgeware.wiki/quickstart/set-up-a-full-node#1-installing-edgeware-and-setting-it-up-as-a-system-service)
+Credit Depth Hoar & Shankar Warang
+:::
+
 :::info Oct 26, 2022
 
 [Set Up a Validator](https://www.edgeware.wiki/quickstart/set-up-a-validator)
