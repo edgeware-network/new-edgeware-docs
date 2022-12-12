@@ -281,7 +281,7 @@ If you want to deploy to a local Edgeware development node, you can use the foll
 If you want to deploy on the Edgeware mainnet, you can use the following network details:
 
 - Network name: Edgeware
-- RPC URL: [https://mainnet2.edgewa.re/evm](https://mainnet2.edgewa.re/evm) (Alternatively, one can use [https://mainnetX.edgewa.re/evm](https://mainnetx.edgewa.re/evm) where X can be any number from 1 to 20.)
+- RPC URL: [https://edgeware-evm.jelliedowl.net/](https://edgeware-evm.jelliedowl.net/)
 - Chain ID: 2021
 
 The Hardhat configuration file should look like this:

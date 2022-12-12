@@ -25,7 +25,7 @@ On Beresheet gas limit is set to 225m, we recommend running the deploy to mainne
 ### Edgeware mainnet
 
 - Network name: Edgeware
-- RPC URL: [https://mainnet2.edgewa.re/evm](https://mainnet2.edgewa.re/evm) \(Alternatively, one can use [https://mainnetX.edgewa.re/evm](https://mainnetX.edgewa.re/evm) where X can be any number from 1 to 20.\)
+- RPC URL: [https://edgeware-evm.jelliedowl.net/](https://edgeware-evm.jelliedowl.net/)
 - Chain ID: 2021
 
 ### EDG EVM Tools
