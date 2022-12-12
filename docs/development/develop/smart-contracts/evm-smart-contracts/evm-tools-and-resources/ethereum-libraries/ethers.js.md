@@ -46,7 +46,7 @@ Different methods are available inside `provider` and `wallet`. Depending on whi
 
 **Edgeware mainnet:**
 
-- RPC_URL: [`https://mainnet2.edgewa.re/evm`](https://mainnet2.edgewa.re/evm)`(Alternatively, one can use`[`https://mainnetX.edgewa.re/evm`](https://mainnetx.edgewa.re/evm)` where X can be any number from 1 to 20.)`
+- RPC_URL: [`https://edgeware-evm.jelliedowl.net/`](https://edgeware-evm.jelliedowl.net/)
 - Chain ID: `2021`
 - NETWORK_NAME: `Edgeware`
 
